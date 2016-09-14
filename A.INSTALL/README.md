@@ -7,7 +7,7 @@ $ source ~/Developer/canarie.ca/collège-boréal-openrc-quebec.sh
 ## Create the Docker Machine on OpenStack
 
 ```
-$ docker-machine --debug \
+$ docker-machine \
   create --driver openstack \
          --openstack-flavor-name m1.tiny \
          --openstack-image-name "Ubuntu 14.04" \
