@@ -8,7 +8,7 @@ http://www.w3schools.com/tags/ref_byfunc.asp
 ## Basique HTML
 
 Tag	Description
-| <!DOCTYPE> 	| Defines the document type
+* <!DOCTYPE>  Defines the document type
 ```
 <html>	Defines an HTML document
 <title>	Defines a title for the document
