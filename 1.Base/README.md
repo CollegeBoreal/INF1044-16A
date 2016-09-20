@@ -9,7 +9,7 @@
 ```Tag```  Description
 * ```<!DOCTYPE>```  Défini le document type
 * ```<html>```  Défini un document HTML
-* ```<title>```	Defines a title for the document
+* ```<title>```	Defines a title for the documents
 * ```<body>```	Defines the document's body
 * ```<h1>``` à ```<h6>```	Defines HTML headings
 * ```<p>```	Defines a paragraph
@@ -48,8 +48,7 @@
 * ```<s>```	Defines text that is no longer correct
 * ```<samp>```	Defines sample output from a computer program
 * ```<small>```	Defines smaller text
-* ```<strike>```	Not supported in HTML5. Use <del> or <s> instead.
-Defines strikethrough text
+* ```<strike>```	*Not supported in HTML5. Use ```<del>``` or ```<s>``` instead.*  Defines strikethrough text
 * ```<strong>```	Defines important text
 * ```<sub>```	Defines subscripted text
 * ```<sup>```	Defines superscripted text
