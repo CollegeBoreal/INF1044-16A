@@ -1,9 +1,8 @@
 
-http://www.w3schools.com/tags/ref_byfunc.asp
 
 
 
-# étiquettes de références
+# HTML: étiquettes de références
 
 ## Basique HTML
 
@@ -20,7 +19,7 @@ http://www.w3schools.com/tags/ref_byfunc.asp
 
 ## Formattage
 ```Tag```  Description
-* ```<acronym>	Not supported in HTML5. Use <abbr> instead.
+* ```<acronym>```	*Not supported in HTML5. Use <abbr> instead.*
 Defines an acronym
 * ```<abbr>	Defines an abbreviation or an acronym
 * ```<address>	Defines contact information for the author/owner of a document/article
@@ -173,3 +172,6 @@ Defines an embedded applet
 * ```<embed>	Defines a container for an external (non-HTML) application
 * ```<object>	Defines an embedded object
 * ```<param>	Defines a parameter for an object
+
+## Références:
+http://www.w3schools.com/tags/ref_byfunc.asp
