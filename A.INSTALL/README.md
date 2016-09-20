@@ -18,3 +18,15 @@ $ docker-machine \
   --openstack-net-name nova \
   CB-<NAME>
   ```
+
+## Switch to openstack
+
+```
+$ eval $(docker-machine env CB-<NAME>)
+```
+
+## Create test server
+
+```
+$ docker run --name nginx -d -p 80:80 nginx
+```
