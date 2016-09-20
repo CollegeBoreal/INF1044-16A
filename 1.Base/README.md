@@ -174,3 +174,5 @@ Defines an embedded applet
 
 ## Références:
 http://www.w3schools.com/tags/ref_byfunc.asp
+### W3schools ¢copyright
+http://www.w3schools.com/about/about_copyright.asp
