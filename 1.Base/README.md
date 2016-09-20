@@ -9,7 +9,7 @@ http://www.w3schools.com/tags/ref_byfunc.asp
 
 Tag	Description
 * <!DOCTYPE>  Défini le document type
-* <html>  Défini un document HTML
+* ```<html>```  Défini un document HTML
 ```
 <title>	Defines a title for the document
 <body>	Defines the document's body
