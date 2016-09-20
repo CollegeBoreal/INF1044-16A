@@ -20,21 +20,21 @@
 ## Formattage
 
 ```Tag```  Description
-* ```<acronym>```	*Not supported in HTML5. Use ```<abbr>``` instead.*  Defines an acronym
+* ```<acronym>```	**Not supported in HTML5. Use ```<abbr>``` instead.**  Defines an acronym
 * ```<abbr>```	Defines an abbreviation or an acronym
 * ```<address>```	Defines contact information for the author/owner of a document/article
 * ```<b>```	Defines bold text
 * ```<bdi>```	Isolates a part of text that might be formatted in a different direction from other text outside it
 * ```<bdo>```	Overrides the current text direction
-* ```<big>```	*Not supported in HTML5. Use CSS instead.*  Defines big text
+* ```<big>```	**Not supported in HTML5. Use CSS instead.**  Defines big text
 * ```<blockquote>```	Defines a section that is quoted from another source
-* ```<center>```	*Not supported in HTML5. Use CSS instead.*  Defines centered text
+* ```<center>```	**Not supported in HTML5. Use CSS instead.**  Defines centered text
 * ```<cite>```	Defines the title of a work
 * ```<code>```	Defines a piece of computer code
 * ```<del>```	Defines text that has been deleted from a document
 * ```<dfn>```	Represents the defining instance of a term
 * ```<em>```	Defines emphasized text 
-* ```<font>```	*Not supported in HTML5. Use CSS instead.*  Defines font, color, and size for text
+* ```<font>```	**Not supported in HTML5. Use CSS instead.**  Defines font, color, and size for text
 * ```<i>```	Defines a part of text in an alternate voice or mood
 * ```<ins>```	Defines a text that has been inserted into a document
 * ```<kbd>```	Defines keyboard input
@@ -54,7 +54,7 @@
 * ```<sub>```	Defines subscripted text
 * ```<sup>```	Defines superscripted text
 * ```<time>```	Defines a date/time
-* ```<tt>```	*Not supported in HTML5. Use CSS instead.*  Defines teletype text
+* ```<tt>```	**Not supported in HTML5. Use CSS instead.**  Defines teletype text
 * ```<u>```	Defines text that should be stylistically different from normal text
 * ```<var>```	Defines a variable
 * ```<wbr>```	Defines a possible line-break
@@ -79,9 +79,9 @@
 ## Frames
 
 ```Tag```	Description
-* ```<frame>```	*Not supported in HTML5.*  Defines a window (a frame) in a frameset
-* ```<frameset>```	*Not supported in HTML5.*  Defines a set of frames
-* ```<noframes>```	*Not supported in HTML5.*  Defines an alternate content for users that do not support frames
+* ```<frame>```	**Not supported in HTML5.**  Defines a window (a frame) in a frameset
+* ```<frameset>```	**Not supported in HTML5.**  Defines a set of frames
+* ```<noframes>```	**Not supported in HTML5.**  Defines an alternate content for users that do not support frames
 * ```<iframe>```	Defines an inline frame
 
 ## Images
@@ -116,7 +116,7 @@
 * ```<ul>```	Defines an unordered list
 * ```<ol>```	Defines an ordered list
 * ```<li>```	Defines a list item
-* ```<dir>```	*Not supported in HTML5. Use ```<ul>``` instead.*  Defines a directory list
+* ```<dir>```	**Not supported in HTML5. Use ```<ul>``` instead.**  Defines a directory list
 * ```<dl>```	Defines a description list
 * ```<dt>```	Defines a term/name in a description list
 * ```<dd>```	Defines a description of a term/name in a description list
