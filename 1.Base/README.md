@@ -8,17 +8,15 @@ http://www.w3schools.com/tags/ref_byfunc.asp
 ## Basique HTML
 
 Tag	Description
-* <!DOCTYPE>  Défini le document type
+* ```<!DOCTYPE>```  Défini le document type
 * ```<html>```  Défini un document HTML
-```
-<title>	Defines a title for the document
-<body>	Defines the document's body
-<h1> to <h6>	Defines HTML headings
-<p>	Defines a paragraph
-<br>	Inserts a single line break
-<hr>	Defines a thematic change in the content
-<!--...-->	Defines a comment
-```
+* ```<title>```	Defines a title for the document
+* ```<body>```	Defines the document's body
+* ```<h1>``` à ```<h6>```	Defines HTML headings
+* ```<p>```	Defines a paragraph
+* ```<br>```	Inserts a single line break
+* ```<hr>```	Defines a thematic change in the content
+* ```<!--...-->```	Defines a comment
 
 ## Formattage
 <acronym>	Not supported in HTML5. Use <abbr> instead.
