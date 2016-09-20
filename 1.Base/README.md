@@ -18,6 +18,7 @@
 * ```<!--...-->```	Defines a comment
 
 ## Formattage
+
 ```Tag```  Description
 * ```<acronym>```	*Not supported in HTML5. Use ```<abbr>``` instead.*  Defines an acronym
 * ```<abbr>```	Defines an abbreviation or an acronym
@@ -53,8 +54,7 @@
 * ```<sub>```	Defines subscripted text
 * ```<sup>```	Defines superscripted text
 * ```<time>```	Defines a date/time
-* ```<tt>```	Not supported in HTML5. Use CSS instead.
-Defines teletype text
+* ```<tt>```	*Not supported in HTML5. Use CSS instead.*  Defines teletype text
 * ```<u>```	Defines text that should be stylistically different from normal text
 * ```<var>```	Defines a variable
 * ```<wbr>```	Defines a possible line-break
@@ -77,14 +77,16 @@ Defines teletype text
 * ```<output>```	Defines the result of a calculation
 
 ## Frames
-* ```Tag```	Description
+
+```Tag```	Description
 * ```<frame>```	*Not supported in HTML5.*  Defines a window (a frame) in a frameset
 * ```<frameset>```	*Not supported in HTML5.*  Defines a set of frames
 * ```<noframes>```	*Not supported in HTML5.*  Defines an alternate content for users that do not support frames
 * ```<iframe>```	Defines an inline frame
 
 ## Images
-* ```Tag```	Description
+
+```Tag```	Description
 * ```<img>```	Defines an image
 * ```<map>```	Defines a client-side image-map
 * ```<area>```	Defines an area inside an image-map
@@ -94,25 +96,27 @@ Defines teletype text
 
 
 ## Audio / Video
-* ```Tag```	Description
+
+```Tag```	Description
 * ```<audio>```	Defines sound content
 * ```<source>```	Defines multiple media resources for media elements (<video> and <audio>)
 * ```<track>```	Defines text tracks for media elements (<video> and <audio>)
 * ```<video>```	Defines a video or movie
 
 ## Links
-* ```Tag```	Description
+
+```Tag```	Description
 * ```<a>```	Defines a hyperlink
 * ```<link>```	Defines the relationship between a document and an external resource (most used to link to style sheets)
 * ```<nav>```	Defines navigation links
 
 ## Lists
-* ```Tag```	Description
+
+```Tag```	Description
 * ```<ul>```	Defines an unordered list
 * ```<ol>```	Defines an ordered list
 * ```<li>```	Defines a list item
-* ```<dir>```	Not supported in HTML5. Use <ul> instead.
-Defines a directory list
+* ```<dir>```	*Not supported in HTML5. Use ```<ul>``` instead.*  Defines a directory list
 * ```<dl>```	Defines a description list
 * ```<dt>```	Defines a term/name in a description list
 * ```<dd>```	Defines a description of a term/name in a description list
@@ -121,7 +125,8 @@ Defines a directory list
 
 
 ## Tables
-* ```Tag```	Description
+
+```Tag```	Description
 * ```<table>```	Defines a table
 * ```<caption>```	Defines a table caption
 * ```<th>```	Defines a header cell in a table
@@ -134,7 +139,8 @@ Defines a directory list
 * ```<colgroup>```	Specifies a group of one or more columns in a table for formatting
 
 ## Styles and Semantics
-* ```Tag```	Description
+
+```Tag```	Description
 * ```<style>```	Defines style information for a document
 * ```<div>```	Defines a section in a document
 * ```<span>```	Defines a section in a document
@@ -149,20 +155,20 @@ Defines a directory list
 * ```<summary>```	Defines a visible heading for a <details> element
 
 ## Meta Info
-* ```Tag```	Description
+
+```Tag```	Description
 * ```<head>```	Defines information about the document
 * ```<meta>```	Defines metadata about an HTML document
 * ```<base>```	Specifies the base URL/target for all relative URLs in a document
-* ```<basefont>```	Not supported in HTML5. Use CSS instead.
-Specifies a default color, size, and font for all text in a document
+* ```<basefont>```	**Not supported in HTML5. Use CSS instead.** Specifies a default color, size, and font for all text in a document
 
 
 ## Programming
-* ```Tag```	Description
+
+```Tag```	Description
 * ```<script>```	Defines a client-side script
 * ```<noscript>```	Defines an alternate content for users that do not support client-side scripts
-* ```<applet>```	Not supported in HTML5. Use <embed> or <object> instead.
-Defines an embedded applet
+* ```<applet>```	*Not supported in HTML5. Use ```<embed>``` or ```<object>``` instead.*  Defines an embedded applet
 * ```<embed>```	Defines a container for an external (non-HTML) application
 * ```<object>```	Defines an embedded object
 * ```<param>```	Defines a parameter for an object
