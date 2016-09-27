@@ -4,8 +4,9 @@
 Modifier dans le container le repertoire /web/html en ajoutant info.php
 
 ```
-<%php
+<?php
 phpipnfo()
+?>
 ```
 
 ```
