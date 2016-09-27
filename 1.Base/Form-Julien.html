@@ -41,14 +41,14 @@
     <progress value="63" max="100"></progress><br/>
     <time datatime="20:00"></time>
 
-    <form>
+    <form action="demo_form.asp" method="get">
       <fieldset>
         <legend>Connexion:</legend>
           <label>Nom d'utilisateur</label>
-          <input type="text"> 
+          <input type="text" name="user" id="user"> 
           <label>mot de pass</label>
-          <input type="password"> type d'encription: <keygen name="encription"><br/>
-          <button type="button">Se connecter</button><br/><br/>
+          <input type="password" name="pass" id="pass"> type d'encription: <keygen name="encription"><br/>
+          <button type="button" onClick="alert('Error!')">Se connecter</button><br/><br/>
             <label>Qui est tu?</label><br/>
             <select>
               <optgroup label="est tu humain">
