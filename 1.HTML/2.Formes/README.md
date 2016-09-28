@@ -17,7 +17,7 @@ phpipnfo()
 ?>
 ```
 
-* Copier manuellement les fichiers PHP
+* Copier manuellement les fichiers PHPs
 
 ```
 $ docker cp *.php apache-php7:/web/html
