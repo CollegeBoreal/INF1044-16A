@@ -1,5 +1,7 @@
 # INF1044-16A
 
-Grossierement inspire par
-http://www.w3schools.com/html/
-Gary
+1.HTML
+
+2.CSS
+
+3.JS
