@@ -177,3 +177,6 @@
 http://www.w3schools.com/tags/ref_byfunc.asp
 ### W3schools ¢copyright
 http://www.w3schools.com/about/about_copyright.asp
+
+## Livres
+https://www.sitepoint.com/premium/books/html5-css3-for-the-real-world-2nd-edition
