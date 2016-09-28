@@ -7,7 +7,7 @@
 $ docker run -d --name apache-php7 -p 8080:80 nimmis/alpine-apache-php7
 ```
 
-## Rajouter le 'Server Side' fichier
+## Rajouter le fichier 'Server Side'
 
 * Dans le container, modifier le repertoire /web/html en ajoutant info.php
 
@@ -16,4 +16,11 @@ $ docker run -d --name apache-php7 -p 8080:80 nimmis/alpine-apache-php7
 phpipnfo()
 ?>
 ```
+
+* Copier manuellement les fichiers PHP
+
+```
+$ docker cp *.php apache-php7:/web/html
+```
+
 
