@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <title>Fiche d'inscription</title>
+   </head>
+   <body>
+   <center>
+   <h2> Inscription</h2>
+      <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+         <fieldset><legend>Fiche d'inscription</legend>
+	        Nom:<br>
+		    <input type="text" name ="firstname"><br>
+		    Prenom:<br>
+		    <input type="text" name="lastname"><br>
+			<p>
+			   Quel est ton but apres les etudes?<br>
+			</p>
+			<textarea align="center" rows="3" cols="51">
+            </textarea><br>
+            <p>
+	       Quel est ta langue maternelle?
+	    </p>
+	    <input list="langueMaternelle" nom="quelLangue">
+               <datalist id="langueMaternelle">
+                  <option value="Francais">
+                  <option value="Anglais">
+                  <option value="Espanole">
+                  <option value="Mandarin">
+            </datalist><br><br>
+			<p>
+			   Les maths sont important!
+			</p><br>
+			<input type="number" id="a" value=""> +
+			<input type="number" id="b" value=""> =
+			<output name="x" for="a b"></output><br><br>
+			<p>
+			   Choisis ta compagnie de voiture prefere:
+			</p><br>
+			<select>
+               <optgroup label="Americaines">
+                  <option value="ford">Ford</option>
+                  <option value="chevy"> Chevrolet</option>
+               </optgroup>
+               <optgroup label="Francaises">
+                  <option value="renault">Renault</option>
+                  <option value="peugeot">Peugeot</option>
+			   </optgroup>
+			   <optgroup>
+                  <option value=""> Japonais</option>
+                  <option value=""> Creole </option>
+               </optgroup>
+            </select>
+			
+         </fieldset>
+      </form>
+   </center>
+   </body>
+</html>
