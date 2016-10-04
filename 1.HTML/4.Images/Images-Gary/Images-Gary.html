@@ -1,0 +1,36 @@
+<DOCTYPE! html>
+<head>
+   <title>Les images de Gary</title>
+</head>
+
+<body>
+   <h1>
+      <center>
+         Les photos de vacances
+      </center>
+   </h1>
+
+   <hr>
+
+   <figure>
+  
+      <img src="im1.jpg" alt="Sur le lac Ontario" width="300" height="250" usemap="#tourcn">
+      
+      <map name="tourcn">
+         <area shape="rect" coords="0,70,182,126" alt="cn" href="cn.html">
+      </map>
+      
+      <figcaption>Fig.1 - Vue sur la ville, du lac Ontario.</figcaption>
+   </figure><br>
+
+      <canvas id="monCanvas"></canvas>
+
+      <script>
+         var canvas = document.getElementById("monCanvas");
+         var ctx = canvas.getContext("2d");
+         ctx.fillStyle = "#FFF500";
+         ctx.fillRect(0,0,80,80);
+      </script><br>
+
+</body>
+</html>
