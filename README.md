@@ -1,4 +1,4 @@
-# INF1044-16A
+# INF1044-16A - Logiciel de développement
 
 ## 1.HTML5
   Étude du protocole HTTP 1.1
