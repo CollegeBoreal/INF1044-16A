@@ -2,7 +2,9 @@
 
 ## 1.HTML5
   Étude du protocole HTTP 1.1
-  https://www.ietf.org/rfc/rfc2616.txt
+  
+   https://www.ietf.org/rfc/rfc2616.txt
+   https://www.ietf.org/rfc/rfc7230.txt
 
 ## 2.CSS3
 
