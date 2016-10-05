@@ -1,13 +1,17 @@
 # INF1044-16A
 
-## 1.HTML5
-  Étude du protocole HTTP 1.1
+## 1. Protocole HTTP 1.1
   
   ```
    https://www.ietf.org/rfc/rfc2616.txt (obsolete)
    https://www.ietf.org/rfc/rfc7230.txt (jusqu'a rfc7237)
 
   ```
+
+## 2.HTML5
+
+https://www.w3.org/TR/html5/
+
 
 ## 2.CSS3
 
