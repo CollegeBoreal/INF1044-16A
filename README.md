@@ -5,12 +5,8 @@
   
   ```
    https://www.ietf.org/rfc/rfc2616.txt (obsolete)
-   https://www.ietf.org/rfc/rfc7230.txt
-   https://www.ietf.org/rfc/rfc7231.txt
-   https://www.ietf.org/rfc/rfc7232.txt
-   https://www.ietf.org/rfc/rfc7233.txt
-   https://www.ietf.org/rfc/rfc7234.txt
-   https://www.ietf.org/rfc/rfc7235.txt
+   https://www.ietf.org/rfc/rfc7230.txt (jusqu'a rfc7237)
+
   ```
 
 ## 2.CSS3
