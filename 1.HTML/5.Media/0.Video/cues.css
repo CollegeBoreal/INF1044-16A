@@ -23,6 +23,10 @@ a{
     color:#ff9;
 }
 
+::cue(v[voice=Man3]){
+    color:#f00;
+}
+
 ::cue(v[voice=Woman]){
     color:#ece;
 }
