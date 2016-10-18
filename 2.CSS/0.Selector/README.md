@@ -8,4 +8,4 @@ Créer un fichier HTML contenant la décoration :
 * l'attribut d'un élément
 * l'état d'un élément
 
-Le texte affiché est en majorité en Francais (à 75%)
+Le texte affiché est en majorité en Français (à 75%)
