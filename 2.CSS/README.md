@@ -13,9 +13,9 @@
 * ```<section>```	Defines a section in a document
 * ```<article>```	Defines an article
 * ```<aside>```	Defines content aside from the page content
-* ```<!--details-->```	Defines additional details that the user can view or hide
+* ```<details>```	Defines additional details that the user can view or hide
 * ```<dialog>```	Defines a dialog box or window
-* ```<summary>```	Defines a visible heading for a <details> element
+* ```<summary>```	Defines a visible heading for a <!--details--> element
 
 ## Meta Info
 
