@@ -34,6 +34,10 @@ jspm_packages
 platforms
 hooks
 *.js.map
+lib
+
+# IDE
+.idea
 
 # Optional npm cache directory
 .npm
