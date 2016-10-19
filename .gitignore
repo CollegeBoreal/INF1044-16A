@@ -33,6 +33,7 @@ jspm_packages
 # NativeScript depedencies
 platforms
 hooks
+*.js.map
 
 # Optional npm cache directory
 .npm
