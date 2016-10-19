@@ -31,4 +31,9 @@ http://www.w3schools.com/bootstrap/bootstrap_templates.asp
 
 ## NativeScript
 
+Creer un nouveau project Angular
+```
+$ tns create cravemobile --template angular
+```
+
 https://docs.nativescript.org/ui/layouts
