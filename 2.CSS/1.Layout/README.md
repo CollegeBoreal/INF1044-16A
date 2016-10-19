@@ -27,6 +27,7 @@ http://www.w3schools.com/css/css_inline-block.asp
 ## BOOTSTRAP
  
 http://getbootstrap.com/css/
+http://www.w3schools.com/bootstrap/bootstrap_templates.asp
 
 ## NativeScript
 
