@@ -37,3 +37,5 @@ $ tns create cravemobile --template angular
 ```
 
 https://docs.nativescript.org/ui/layouts
+
+et changer le 'Layout'  (Chercher la traduction, 2 pts de +)
