@@ -1,0 +1,16 @@
+<GridLayout columns="*,3*" rows="2*,3*" width="350" height="500" 
+                    style.backgroundColor="lightblue" >
+    <Label text="Tap the button" class="title" col="0" rows="0" width="350"
+                backgroundColor="lightyellow"></Label>
+
+    <Button text="TAP" (tap)="onTap()" col="1" row="1" width="100"></Button>
+
+    <Label [text]="message" class="message" textWrap="true" col="3" row="3" width="350"></Label>
+</GridLayout>
+<!--<StackLayout>
+    <Label text="Tap the button" class="title"></Label>
+    
+    <Button text="TAP" (tap)="onTap()"></Button>
+
+    <Label [text]="message" class="message" textWrap="true"></Label>
+</StackLayout>-->
