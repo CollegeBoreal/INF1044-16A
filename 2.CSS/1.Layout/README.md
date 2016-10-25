@@ -36,6 +36,11 @@ Creer un nouveau project Angular
 $ tns create cravemobile --template angular
 ```
 
+Note: Mettre a jour a tns 2.3.0
+```
+$ npm install -g nativescript@latest
+```
+
 https://docs.nativescript.org/ui/layouts
 
 et changer le 'Layout'  (Chercher la traduction, 2 pts de +)
