@@ -1,7 +1,20 @@
 <StackLayout>
-    <Label text="Tap the button" class="title"></Label>
-    
-    <Button text="TAP" (tap)="onTap()"></Button>
 
-    <Label [text]="message" class="message" textWrap="true"></Label>
+    <StackLayout>
+        <Label text="Tapoter sur le bouton!" class="title"></Label>
+        
+        <Button text="Appuyez ICI!" (tap)="onTap()" cssClass="button"></Button>
+    </StackLayout>
+
+    <GridLayout rows="100,100" columns="100,100" horizontalAlignment="center" verticalAlignment="center">
+        <Button text="WI" row="0" col="0" class="1"></Button>
+        <Button text="ND" row="0" col="1" class="3"></Button>
+        <Button text="OW" row="1" col="0" class="2"></Button>
+        <Button text="S 8" row="1" col="1" class="4"></Button>
+    </GridLayout>
+
+    <StackLayout>
+        <Label [text]="message" class="message" textWrap="true"></Label>
+    </StackLayout>
+
 </StackLayout>
