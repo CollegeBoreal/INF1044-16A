@@ -9,9 +9,9 @@ export class AppComponent {
 
     public get message(): string {
         if (this.counter > 0) {
-            return this.counter + " taps left";
+            return this.counter + " fois de plus";
         } else {
-            return "Hoorraaay! \nYou are ready to start building!";
+            return "Et voila le tour est jouer";
         }
     }
     
