@@ -10,5 +10,8 @@
 
 ## Node Install
 
-https://nodejs.org/en/download/
+* https://nodejs.org/en/download/
+* NPM packages
+* angular-cli
+
 
