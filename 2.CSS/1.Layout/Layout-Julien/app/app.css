@@ -17,3 +17,16 @@ button {
     text-align: center;
     margin: 0 20;
 } 
+
+.1{
+    background-color: red;
+}
+.2{
+    background-color: dodgerblue;
+}
+.3{
+    background-color: limegreen;
+}
+.4{
+    background-color: yellow;
+}
