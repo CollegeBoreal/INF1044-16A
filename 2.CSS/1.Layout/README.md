@@ -1,6 +1,6 @@
 # Layout
 
-Devoirs ![./DEVOIRS.md]
+Devoirs !(./DEVOIRS.md)
 
 ## HTML5
 
