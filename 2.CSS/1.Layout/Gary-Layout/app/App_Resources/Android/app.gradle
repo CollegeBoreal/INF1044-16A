@@ -8,7 +8,7 @@
 android {  
   defaultConfig {  
     generatedDensities = []
-    applicationId = "org.nativescript.LayoutMobile"  
+    applicationId = "org.nativescript.Create"  
   }  
   aaptOptions {  
     additionalParameters "--no-version-vectors"  
