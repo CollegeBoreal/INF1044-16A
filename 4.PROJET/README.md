@@ -4,7 +4,7 @@
 
 Creer un nouveau project Angular
 ```
-$ tns create cravemobile --template angular
+$ tns create mon-projet --template angular
 ```
 
 ### Prerequis
