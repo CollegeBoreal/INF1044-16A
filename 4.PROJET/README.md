@@ -1,13 +1,6 @@
 # Bon courage
 
-## NativeScript
-
-Creer un nouveau project Angular
-```
-$ tns create mon-projet --template angular
-```
-
-### Prerequis
+### Prerequis NativeScript
 
 Note: Mettre a jour a tns 2.3.0
 
@@ -25,6 +18,34 @@ ou
 $ npm install -g nativescript@2.3.0
 ```
 
+## Projet
+
+Creer un nouveau project Angular
+```
+$ tns create mon-projet --template angular
+```
+
+## Plateforme
+
+Apple
+```
+$ tns platform add ios
+```
+
+Android
+```
+$ tns platform add android
+```
+
+## Lancer l'application
+```
+$ tns livesync <platforme> --emulator --watch
+```
+
+
+
+
+### Documentation
 
 
 https://docs.nativescript.org/ui/layouts
