@@ -2,15 +2,15 @@
 var core_1 = require("@angular/core");
 var AppComponent = (function () {
     function AppComponent() {
-        this.counter = 16;
+        this.counter = 1;
     }
     Object.defineProperty(AppComponent.prototype, "message", {
         get: function () {
             if (this.counter > 0) {
-                return this.counter + " taps left";
+                return this.counter + " Tappez pour verifier si vous etes un agent";
             }
             else {
-                return "Hoorraaay! \nYou are ready to start building!";
+                return "Pas un agent secret";
             }
         },
         enumerable: true,
