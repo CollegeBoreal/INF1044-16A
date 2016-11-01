@@ -2,6 +2,13 @@
 
 MVC (Model View Controller)
 
+One Way Binding:
+[ ] 
+( )
+
+Two way Binding:
+([ ]) Banana in a box
+
 ## Programming
 
 ```Tag```	Description
