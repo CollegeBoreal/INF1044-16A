@@ -11,7 +11,7 @@ var AuthGuard = (function () {
             return true;
         }
         else {
-            this.router.navigate(["/login"]);
+            this.router.navigate(["/villes"]);
             return false;
         }
     };
