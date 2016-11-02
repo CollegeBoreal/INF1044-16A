@@ -6,7 +6,7 @@ var VillesComponent = (function () {
     VillesComponent = __decorate([
         core_1.Component({
             selector: "my-app",
-            templateUrl: "image.component.html",
+            templateUrl: "villes.component.html",
         }), 
         __metadata('design:paramtypes', [])
     ], VillesComponent);

@@ -5,6 +5,6 @@ import { ImageComponent } from "./image.component";
 import { AuthGuard } from "../auth-guard.service";
 
 const imageRoutes: Routes = [
-    { path: "groceries", component: ImageComponent, canActivate: [AuthGuard] },
+    { path: "images", component: ImageComponent, canActivate: [AuthGuard] },
 ];
 export const imageRouting: ModuleWithProviders = RouterModule.forChild(imageRoutes);
