@@ -3,8 +3,9 @@
 MVC (Model View Controller)
 
 One Way Binding:
-[ ] 
-( )
+{{ }}   C => V
+[ ]     C => V
+( )     V => C
 
 Two way Binding:
 ([ ]) Banana in a box
@@ -22,6 +23,11 @@ Two way Binding:
 ## Node Install
 
 * https://nodejs.org/en/download/
+
+```
+Latest LTS Version: v6.9.1 (includes npm 3.10.8)
+```
+
 * NPM packages
 * angular-cli
 
