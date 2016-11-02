@@ -12,20 +12,20 @@ Creer un projet angular-cli et experimenter les tests et creations de composants
 - Creer les tests en consequence
 
 
-### Reference
+### Tutoriels de Brad Traversy  
 
-#### Tutoriel
+#### Angular-CLI
 Creer une application avec angular CLI
 https://www.youtube.com/watch?v=QMQbAoTLJX8
 
-#### Tutoriels
+#### Divers
 https://www.youtube.com/playlist?list=PLillGF-RfqbbZnAJlEzttBrbkAO27U_hd
 
-Angular 2 Tutorial [1] - Introduction de Brad Traversy  
-Angular 2 Tutorial [2] - Quickstart Setup de Brad Traversy (Utiliser angular-cli)   
-Angular 2 Tutorial [3] - Components and Data Binding de Brad Traversy 12:50   
-Angular 2 Tutorial [4] - Template Directives de Brad Traversy 6:19   
-Angular 2 Tutorial [5] - Pipes and Filtering de Brad Traversy 11:52  
-Angular 2 Tutorial [6] - Creating A Service de Brad Traversy 12:29  
-Angular 2 Tutorial [7] - HTTP and Observables  
+Angular 2 Tutorial [1] - Introduction - 7:34
+Angular 2 Tutorial [2] - Quickstart Setup - 5:08 (Utiliser angular-cli a la place)   
+Angular 2 Tutorial [3] - Components and Data Binding - 12:50   
+Angular 2 Tutorial [4] - Template Directives - 6:19   
+Angular 2 Tutorial [5] - Pipes and Filtering -  11:52  
+Angular 2 Tutorial [6] - Creating A Service - 12:29  
+Angular 2 Tutorial [7] - HTTP and Observables - 11:00
 
