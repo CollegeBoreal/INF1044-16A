@@ -11,6 +11,7 @@ Creer un projet angular-cli et experimenter les tests et creations de composants
 
 - Creer les tests en consequence
 
+--
 
 ### Tutoriels de Brad Traversy  
 
