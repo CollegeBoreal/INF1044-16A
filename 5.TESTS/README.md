@@ -16,7 +16,7 @@ Creer un projet angular-cli et experimenter les tests et creations de composants
 ### Tutoriels de Brad Traversy  
 
 #### Angular-CLI
-Creer une application avec angular CLI
+Creer une application avec angular CLI  
 https://www.youtube.com/watch?v=QMQbAoTLJX8
 
 #### Divers
