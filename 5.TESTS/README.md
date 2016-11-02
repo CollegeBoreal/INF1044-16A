@@ -8,3 +8,5 @@ Creer un projet angular-cli et experimenter les tests et creations de composants
 
 - Creer un module Dashboard
 - Creer un composant ramenant une liste dans dashboard
+
+- Creer les tests en consequence
