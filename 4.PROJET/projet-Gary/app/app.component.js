@@ -7,10 +7,10 @@ var AppComponent = (function () {
     Object.defineProperty(AppComponent.prototype, "message", {
         get: function () {
             if (this.counter > 0) {
-                return this.counter + " Tappez pour verifier si vous etes un agent";
+                return "Vous etes a Mississauga";
             }
             else {
-                return "Pas un agent secret";
+                return "Choisis une ville";
             }
         },
         enumerable: true,
