@@ -4,6 +4,7 @@ exports.authProviders = [
     auth_guard_service_1.AuthGuard
 ];
 exports.appRoutes = [
-    { path: "", redirectTo: "/groceries", pathMatch: "full" }
+    { path: "", redirectTo: "/image", pathMatch: "full" },
+    { path: "villes", redirectTo: "/villes", pathMatch: "full" }
 ];
 //# sourceMappingURL=app.routing.js.map
