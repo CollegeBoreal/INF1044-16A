@@ -10,3 +10,8 @@ Creer un projet angular-cli et experimenter les tests et creations de composants
 - Creer un composant ramenant une liste dans dashboard
 
 - Creer les tests en consequence
+
+
+### Reference
+
+https://www.youtube.com/playlist?list=PLillGF-RfqbbZnAJlEzttBrbkAO27U_hd
