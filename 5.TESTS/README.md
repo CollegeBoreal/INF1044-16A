@@ -13,6 +13,14 @@ Creer un projet angular-cli et experimenter les tests et creations de composants
 
 --
 
+### Router
+
+$ ng g route dashboard  
+Due to changes in the router, route generation has been temporarily disabled.  
+You can find more information about the new router here: http://victorsavkin.com/post/145672529346/angular-router
+
+
+
 ### Tutoriels de Brad Traversy  
 
 #### Angular-CLI
