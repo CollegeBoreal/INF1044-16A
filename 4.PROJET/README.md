@@ -47,7 +47,7 @@ $ tns livesync <platforme> --emulator --watch
 
 ### Documentation
 
-* Layouts
+* Layouts   
 https://docs.nativescript.org/ui/layouts   
 http://developer.telerik.com/featured/demystifying-nativescript-layouts/
 
