@@ -1,19 +1,27 @@
-﻿button, label, stack-layout {
-    horizontal-align: center;    
+﻿stack-layout {
+    horizontal-align: center; 
+    color: rebeccapurple;   
+}
+label{ 
+    font: 40;
+    color: cadetblue;
 }
 
 button {
     font-size: 20;
+    border-style: ridge;
+    background-color: blueviolet;
 }
 
 .title {
     font-size: 30;
     margin: 20;
+    color: rebeccapurple;
 }
 
 .message {
     font-size: 20;
-    color: #284848;
+    color:royalblue;
     text-align: center;
     margin: 0 20;
 } 
