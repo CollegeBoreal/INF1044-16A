@@ -4,11 +4,11 @@
 
 https://nodejs.org/en/download/
 
-## Nativescript
+## Nativescript (Telerik NativeScript)
 ```
-$ npm install -g nativescript@2.3.0
+$ sudo npm install -g nativescript@2.3.0
 ```
 ## Angular CLI
 ```
-$ npm install -g angular-cli
+$ sudo npm install -g angular-cli
 ```
