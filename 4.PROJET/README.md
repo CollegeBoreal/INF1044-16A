@@ -51,3 +51,6 @@ $ tns livesync <platforme> --emulator --watch
 https://docs.nativescript.org/ui/layouts   
 http://developer.telerik.com/featured/demystifying-nativescript-layouts/
 
+* Magic
+https://www.npmjs.com/package/nativescript-ng2-magic
+
