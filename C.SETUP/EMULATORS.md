@@ -1,4 +1,4 @@
-# Emulators
+# Simulateurs
 
 ## iOS
 XCode 7+
