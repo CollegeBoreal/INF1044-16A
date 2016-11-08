@@ -15,9 +15,17 @@ $ sudo npm install -g angular-cli
 # Mac OS
 
 ## Extra pour Mac OS
-Note: Ne pas exécuter l'étape 2
-https://docs.nativescript.org/start/ns-setup-os-x
+Note: Ne pas exécuter l'étape 2   
+https://docs.nativescript.org/start/ns-setup-os-x   
 
-ERROR:  Error installing xcodeproj:
-	activesupport requires Ruby version >= 2.2.2.
-antsiranana:~ 300095342$ sudo gem install activesupport -v 4.2.6
+* Installer le `xcodeproj ruby gem` :   
+```
+$ sudo gem install xcodeproj
+```
+
+
+ERROR:  Error installing xcodeproj:   
+	activesupport requires Ruby version >= 2.2.2.   
+```
+$ sudo gem install activesupport -v 4.2.6
+```
