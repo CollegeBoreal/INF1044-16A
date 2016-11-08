@@ -23,8 +23,7 @@ https://docs.nativescript.org/start/ns-setup-os-x
 $ sudo gem install xcodeproj
 ```
 
-
-ERROR:  Error installing xcodeproj:   
+### ERROR:  Error installing xcodeproj:   
 	activesupport requires Ruby version >= 2.2.2.   
 ```
 $ sudo gem install activesupport -v 4.2.6
