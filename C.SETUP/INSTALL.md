@@ -6,5 +6,5 @@ https://nodejs.org/en/download/
 
 ## Nativescript
 ```
-$ npm install nativescript@next -g
+$ npm install nativescript@2.3.0
 ```
