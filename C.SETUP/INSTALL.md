@@ -6,7 +6,7 @@ https://nodejs.org/en/download/
 
 ## Nativescript
 ```
-$ npm install nativescript@2.3.0
+$ npm install -g nativescript@2.3.0
 ```
 ## Angular CLI
 ```
