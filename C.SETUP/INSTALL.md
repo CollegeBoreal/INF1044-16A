@@ -14,14 +14,6 @@ $ sudo npm install -g angular-cli
 ```
 # Mac OS
 
-## Ruby
-```
-$ ruby --version
-```
-ruby 2.0.0p648 (2015-12-16 revision 53162) [universal.x86_64-darwin15]
-
-## rvm
-```
-$ rvm --version
-```
-rvm 1.27.0 (latest) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+## Extra pour Mac OS
+Note: Ne pas exécuter l'étape 2
+https://docs.nativescript.org/start/ns-setup-os-x
