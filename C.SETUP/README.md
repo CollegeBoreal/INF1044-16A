@@ -1,4 +1,4 @@
-# crave.mob
+# SETUP
 
 ## Project
 * [Installation](INSTALL.md)
