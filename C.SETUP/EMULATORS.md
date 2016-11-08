@@ -1,5 +1,7 @@
 # Simulateurs
 
+XCode et Android Studio sont requis pour lancer les simulateurs
+
 ## iOS
 XCode 7+
 ``` 
