@@ -12,11 +12,13 @@ $ sudo npm install -g nativescript@2.3.0
 ```
 $ sudo npm install -g angular-cli
 ```
-# Mac OS
+# Supplement
 
-## Extra pour Mac OS
-Note: Ne pas exécuter l'étape 2   
-https://docs.nativescript.org/start/ns-setup-os-x   
+## Mac OS
+
+Pour compiler et générer du code Swift (ou Objective C) sous MacOS,  
+Telerik utilise Ruby et le projet xcodeproj (similaire a Graddle pour Android)   
+Le projet xcodeproj requiert la librairie cocoapods
 
 * Installer le `xcodeproj ruby gem` :   
 ```
@@ -28,3 +30,12 @@ $ sudo gem install xcodeproj
 ```
 $ sudo gem install activesupport -v 4.2.6
 ```
+-- Reference:  
+https://docs.nativescript.org/start/ns-setup-os-x   
+
+
+
+
+Android
+
+https://software.intel.com/en-us/android/articles/intel-hardware-accelerated-execution-manager
