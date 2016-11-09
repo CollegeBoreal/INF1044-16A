@@ -14,7 +14,7 @@ $ sudo npm install -g angular-cli
 ```
 # Supplement
 
-## Mac OS
+## Générer du code pour l'iOS
 
 Pour compiler et générer du code Swift (ou Objective C) sous MacOS,  
 Telerik utilise Ruby et le projet xcodeproj (similaire a Graddle pour Android)   
@@ -35,8 +35,10 @@ $ sudo gem install activesupport -v 4.2.6
 https://docs.nativescript.org/start/ns-setup-os-x   
 
 
+## Accélérateur pour l'Android
 
-
-Android
-
+Installer l'accélérateur  (Intel® HAXM) et utiliser le CPU/ABI Intel Atom (x86_64)
 https://software.intel.com/en-us/android/articles/intel-hardware-accelerated-execution-manager
+
+
+## Installer Java et Android SDK
