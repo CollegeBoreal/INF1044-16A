@@ -23,6 +23,7 @@ Le projet xcodeproj requiert la librairie cocoapods
 * Installer le `xcodeproj ruby gem` :   
 ```
 $ sudo gem install xcodeproj
+$ sudo gem install cocoapods
 ```
 
 * ERROR:  Error installing xcodeproj:   
