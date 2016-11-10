@@ -16,6 +16,16 @@ $ tns --version
 2.3.0
 ```
 
+### Angular-cli
+```
+$ ng --version
+Could not start watchman; falling back to NodeWatcher for file system events.
+Visit http://ember-cli.com/user-guide/#watchman for more info.
+angular-cli: 1.0.0-beta.18
+node: 6.9.1
+os: darwin x64
+```
+
 ### XCode
 ```
 $ gcc --version
@@ -26,13 +36,18 @@ Thread model: posix
 InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
 ```
 
-### Angular-cli
+### xcodeproj
 ```
-$ ng --version
-Could not start watchman; falling back to NodeWatcher for file system events.
-Visit http://ember-cli.com/user-guide/#watchman for more info.
-angular-cli: 1.0.0-beta.18
-node: 6.9.1
-os: darwin x64
+$ xcodeproj --version
+1.3.1
 ```
+
+### cocoapods
+```
+$ pod --version
+1.0.1
+```
+
+
+
 

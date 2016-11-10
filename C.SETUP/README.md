@@ -3,7 +3,7 @@
 ## Project
 * [Installation](INSTALL.md)
 * Vérifier les [versions](VERSIONS.md)
-* Langer les [simulateurs](EMULATORS.md) 
+* Lancer les [simulateurs](EMULATORS.md) 
 
 ### (Eventuellement) Créer 
 ```

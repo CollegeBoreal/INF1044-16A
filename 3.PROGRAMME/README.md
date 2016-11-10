@@ -2,10 +2,17 @@
 
 MVC (Model View Controller)
 
-One Way Binding:
-{{ }}   C => V
-[ ]     C => V
-( )     V => C
+One Way Binding:  
+
+Display value:     {{ }}   C => V
+
+Attribute Binding: [...]     C => V
+Event Binding:     (... )    V => C
+
+conditions:    *ng-if="expression"
+loops:         *ng-for="expression"
+
+Styling:       [class.style1]="expression"
 
 Two way Binding:
 ([ ]) Banana in a box
