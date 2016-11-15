@@ -57,5 +57,6 @@ https://www.w3.org/TR/css3-color/
 
 http://www.w3schools.com/cssref/default.asp
 
-## NativeScript Fonts Example
+## NativeScript CSS and Fonts Example   
+https://docs.nativescript.org/ui/styling      
 https://github.com/TheOriginalJosh/nativescript-weather
