@@ -6,8 +6,8 @@ import {VilleListComponent} from './dashboard/ville-list/ville-list.component';
 
 const appRoutes: Routes = [
   {path: '', component:AppComponent},
-  {path: 'apropos', component:DashboardComponent},
-  {path: 'autre', component:VilleListComponent}
+  {path: './dashboard', component:DashboardComponent},
+  {path: './dashboard/ville-list', component:VilleListComponent}
 ];
 
 export const appRouting : ModuleWithProviders = RouterModule.forRoot(appRoutes);
