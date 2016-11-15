@@ -4,10 +4,9 @@ MVC (Model View Controller)
 
 One Way Binding:  
 
-Interpolation:     {{ }}   C => V  //  Display value
-
-Attribute Binding: [...]     C => V
-Event Binding:     (... )    V => C
+Interpolation:     {{...}}   C => V  //  Display value  
+Attribute Binding: [...]     C => V  
+Event Binding:     (... )    V => C  
 
 conditions:    *ng-if="expression"
 loops:         *ng-for="expression"
