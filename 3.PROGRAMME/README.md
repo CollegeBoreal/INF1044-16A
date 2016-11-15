@@ -8,8 +8,8 @@ Interpolation:     {{...}}   C => V  //  Display value
 Attribute Binding: [...]     C => V  
 Event Binding:     (... )    V => C  
 
-conditions:    *ng-if="expression"
-loops:         *ng-for="expression"
+conditions:    *ng-if="expression"  
+loops:         *ng-for="expression"  
 
 Styling:       [class.style1]="expression"
 
