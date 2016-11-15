@@ -36,7 +36,8 @@ http://www.w3schools.com/cssref/css_functions.asp
 
 ## Police de characteres
 
-http://www.w3schools.com/cssref/css_websafe_fonts.asp
+http://www.w3schools.com/cssref/css_websafe_fonts.asp  
+https://en.wikipedia.org/wiki/Category:Typeface_samples
 
 ## Unites
 
