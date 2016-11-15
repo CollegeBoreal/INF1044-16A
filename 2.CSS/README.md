@@ -36,7 +36,8 @@ http://www.w3schools.com/cssref/css_functions.asp
 
 ## Police de characteres
 
-http://www.w3schools.com/cssref/css_websafe_fonts.asp
+http://www.w3schools.com/cssref/css_websafe_fonts.asp  
+https://en.wikipedia.org/wiki/Category:Typeface_samples
 
 ## Unites
 
@@ -56,3 +57,7 @@ https://www.w3.org/TR/css3-color/
 ## Reference
 
 http://www.w3schools.com/cssref/default.asp
+
+## NativeScript CSS and Fonts Example   
+https://docs.nativescript.org/ui/styling      
+https://github.com/TheOriginalJosh/nativescript-weather
