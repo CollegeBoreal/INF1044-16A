@@ -39,9 +39,14 @@ http://www.w3schools.com/cssref/css_functions.asp
 http://www.w3schools.com/cssref/css_websafe_fonts.asp  
 https://en.wikipedia.org/wiki/Category:Typeface_samples
 
-## Anime (key-frame)
+## Anime 
+
+### key-frame
 http://www.w3schools.com/cssref/css_animatable.asp   
 http://www.nativescriptsnacks.com/videos/2016/10/25/keyframe-animation.html   
+
+### non key-frame
+http://www.nativescriptsnacks.com/videos/2016/10/27/animated-ui-ng.html  
 
 ## Unites
 
