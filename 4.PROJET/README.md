@@ -59,7 +59,7 @@ https://www.nativescript.org/resources
 
 * NativeScript Snacks  
 ** Navigation  
-http://www.nativescriptsnacks.com/videos/2016/10/12/navigating-ng2.html
+http://www.nativescriptsnacks.com/videos/2016/10/12/navigating-ng2.html  
 ** Passing Data  
 https://www.youtube.com/watch?v=nLBWA3SFpWk
 
