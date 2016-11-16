@@ -1,0 +1,4 @@
+<StackLayout>
+    <Button text="hello" (tap)="onTap()" class="spin"></Button>
+    <Button text="TAP" [@etat]="courant ? 'actif' : 'inactif'" (tap)="balancer()"></Button>
+</StackLayout>
