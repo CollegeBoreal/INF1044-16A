@@ -58,8 +58,10 @@ https://www.npmjs.com/package/nativescript-ng2-magic
 https://www.nativescript.org/resources
 
 * NativeScript Snacks  
-- Navigation  
+** Navigation  
 http://www.nativescriptsnacks.com/videos/2016/10/12/navigating-ng2.html
+** Passing Data  
+https://www.youtube.com/watch?v=nLBWA3SFpWk
 
 
 * Fonts:  
