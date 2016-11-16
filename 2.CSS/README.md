@@ -39,6 +39,10 @@ http://www.w3schools.com/cssref/css_functions.asp
 http://www.w3schools.com/cssref/css_websafe_fonts.asp  
 https://en.wikipedia.org/wiki/Category:Typeface_samples
 
+## Anime (key-frame)
+http://www.w3schools.com/cssref/css_animatable.asp   
+http://www.nativescriptsnacks.com/videos/2016/10/25/keyframe-animation.html   
+
 ## Unites
 
 http://www.w3schools.com/cssref/css_units.asp
@@ -52,7 +56,8 @@ https://www.w3.org/TR/css3-color/
 
 ## Aural
 
-## Anime
+http://www.w3schools.com/cssref/css_ref_aural.asp
+
 
 ## Reference
 
