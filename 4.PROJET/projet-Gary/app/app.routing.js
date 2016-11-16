@@ -5,6 +5,6 @@ exports.authProviders = [
 ];
 exports.appRoutes = [
     { path: "", redirectTo: "/image", pathMatch: "full" },
-    { path: "villes", redirectTo: "/villes", pathMatch: "full" }
+    { path: "villes", redirectTo: "/villes", pathMatch: "full" },
 ];
 //# sourceMappingURL=app.routing.js.map
