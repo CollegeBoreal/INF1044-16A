@@ -1,0 +1,8 @@
+<StackLayout class="p-20">
+    <Button text="Pirouette" class="spin"> </Button>
+    <Button 
+        text="Lumiere" 
+        [@etat]="courant ? 'actif' : 'inactif'" 
+        (tap)="balancer()">
+    </Button>
+</StackLayout>
