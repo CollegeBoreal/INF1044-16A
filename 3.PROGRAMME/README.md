@@ -16,6 +16,9 @@ Styling:       [class.style1]="expression"
 Two way Binding:
 ([ ]) Banana in a box
 
+
+![alt tag](CodeSchool-AcceleratingThroughAngular2.pdf)
+
 ## Programming
 
 ```Tag```	Description
