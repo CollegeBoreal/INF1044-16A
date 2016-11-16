@@ -30,3 +30,13 @@ refer to http://docs.nativescript.org/ui/theme.
     from { transform: rotate (0deg); }
     to { transform: rotate(360deg); }
 }
+
+.wi {
+    font-family: 'Weather Icons', weathericons-regular-webfont, Courier, sans-serif;
+    font-size:90;
+}
+
+.lb {
+    font-family: 'Lato Bold', Lato-Bold, Courier, sans-serif;
+    font-size:50;
+}
