@@ -57,5 +57,10 @@ https://www.npmjs.com/package/nativescript-ng2-magic
 * NativeScript Resources   
 https://www.nativescript.org/resources
 
+* NativeScript Snacks  
+- Navigation  
+http://www.nativescriptsnacks.com/videos/2016/10/12/navigating-ng2.html
+
+
 * Fonts:  
 https://github.com/TheOriginalJosh/nativescript-weather   
