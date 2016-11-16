@@ -39,6 +39,10 @@ http://www.w3schools.com/cssref/css_functions.asp
 http://www.w3schools.com/cssref/css_websafe_fonts.asp  
 https://en.wikipedia.org/wiki/Category:Typeface_samples
 
+- Exemple NativeScript
+https://github.com/TheOriginalJosh/nativescript-weather
+
+
 ## Anime 
 
 ### key-frame
@@ -65,9 +69,8 @@ http://www.w3schools.com/cssref/css_ref_aural.asp
 
 
 ## Reference
-
-http://www.w3schools.com/cssref/default.asp
-
-## NativeScript CSS and Fonts Example   
+### Web
+http://www.w3schools.com/cssref/default.asp   
+### NativeScript CSS 
 https://docs.nativescript.org/ui/styling      
-https://github.com/TheOriginalJosh/nativescript-weather
+
