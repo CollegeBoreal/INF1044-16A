@@ -1,0 +1,17 @@
+<StackLayout text="Greater 6ix" class="title">
+     <!--<Button text="rect" style="clip-path: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet); border-width:2; border-color: blue; " />-->
+    <Label text="Greater 6ix" class="title"></Label>
+
+    <Button text="Mississauga" (tap)="onTap()"></Button>
+    <Button text="Toronto" (tap)="onTap()"></Button>
+
+    <Label [text]="message" class="message" textWrap="true"></Label>
+    <Label [text]="message" class="message" textWrap="true"></Label>
+
+    <Gradient:Gradient height="50%" startColor="#DA22FF" endColor="#9733EE" orientation="LEFT_RIGHT" id="gradient">
+      <StackLayout>
+        <Label text="Left to Right" class="info" textWrap="true" />
+<!--        -->
+      </StackLayout>
+    </Gradient:Gradient>
+</StackLayout>

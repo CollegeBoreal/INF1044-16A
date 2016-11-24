@@ -2,7 +2,7 @@
 var core_1 = require("@angular/core");
 var AppComponent = (function () {
     function AppComponent() {
-        this.counter = 1;
+        this.counter = 16;
     }
     Object.defineProperty(AppComponent.prototype, "message", {
         get: function () {

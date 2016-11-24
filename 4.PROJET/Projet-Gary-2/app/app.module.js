@@ -1,8 +1,10 @@
 "use strict";
-var platform_1 = require("nativescript-angular/platform");
 var core_1 = require("@angular/core");
+var platform_1 = require("nativescript-angular/platform");
 var http_1 = require("nativescript-angular/http");
 var router_1 = require("nativescript-angular/router");
+var villes_component_1 = require("./villes/villes.component");
+var image_component_1 = require("./image/image.component");
 var app_routing_1 = require("./app.routing");
 var app_component_1 = require("./app.component");
 var AppModule = (function () {
@@ -21,6 +23,8 @@ var AppModule = (function () {
             ],
             declarations: [
                 app_component_1.AppComponent,
+                villes_component_1.VillesComponent,
+                image_component_1.ImageComponent
             ],
             bootstrap: [app_component_1.AppComponent]
         }), 
