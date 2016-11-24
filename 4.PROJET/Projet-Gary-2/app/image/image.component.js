@@ -5,8 +5,8 @@ var ImageComponent = (function () {
     }
     ImageComponent = __decorate([
         core_1.Component({
-            selector: "my-app",
-            templateUrl: "image.component.html",
+            selector: "my-image",
+            templateUrl: "./image/image.component.html"
         }), 
         __metadata('design:paramtypes', [])
     ], ImageComponent);
