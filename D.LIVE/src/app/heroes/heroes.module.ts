@@ -5,7 +5,7 @@ import { FormsModule }    from '@angular/forms';
 import { HeroListComponent }    from './hero-list.component';
 import { HeroDetailComponent }  from './hero-detail.component';
 
-import { HeroService } from './hero.service';
+import { HeroService } from './shared/hero.service';
 
 import { HeroRoutingModule } from './heroes-routing.module';
 

@@ -5,7 +5,7 @@ import { Router, Resolve,
 import { Crisis, CrisisService } from './crisis.service';
 
 @Injectable()
-export class CrisisDetailResolve implements Resolve<Crisis> {
+export class CrisisDetailResolveService implements Resolve<Crisis> {
   constructor(private cs: CrisisService, private router: Router) {}
 
   resolve(route: ActivatedRouteSnapshot): Promise<Crisis>|boolean {

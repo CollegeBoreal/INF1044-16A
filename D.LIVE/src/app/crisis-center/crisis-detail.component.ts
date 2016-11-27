@@ -3,7 +3,7 @@ import { Component, OnInit, HostBinding,
          animate, style, state }  from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 
-import { Crisis }         from './crisis.service';
+import { Crisis }         from './shared/crisis.service';
 import { DialogService }  from '../shared/dialog.service';
 
 @Component({
