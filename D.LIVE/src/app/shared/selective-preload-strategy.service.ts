@@ -4,7 +4,7 @@ import { PreloadingStrategy, Route } from '@angular/router';
 import { Observable } from 'rxjs/Observable';
 
 @Injectable()
-export class PreloadSelectedModules implements PreloadingStrategy {
+export class SelectivePreloadStrategyService implements PreloadingStrategy {
   preloadedModules: string[] = [];
 
   preload(route: Route, load: Function): Observable<any> {

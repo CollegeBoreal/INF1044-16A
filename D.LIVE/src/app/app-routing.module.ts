@@ -1,9 +1,9 @@
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { CanDeactivateGuard } from './shared/can-deactivate-guard.service';
+import { CanDeactivateGuardService } from './login/shared/can-deactivate-guard.service';
 import { AuthGuardService }   from './login/shared/auth-guard.service';
-import { PreloadSelectedModules } from './selective-preload-strategy';
+import { SelectivePreloadStrategyService } from './shared/selective-preload-strategy.service';
 
 const appRoutes: Routes = [
   {
@@ -29,15 +29,15 @@ const appRoutes: Routes = [
   imports: [
     RouterModule.forRoot(
       appRoutes,
-      { preloadingStrategy: PreloadSelectedModules }
+      { preloadingStrategy: SelectivePreloadStrategyService }
     )
   ],
   exports: [
     RouterModule
   ],
   providers: [
-    CanDeactivateGuard,
-    PreloadSelectedModules
+    CanDeactivateGuardService,
+    SelectivePreloadStrategyService
   ]
 })
 export class AppRoutingModule {}
