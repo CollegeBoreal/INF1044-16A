@@ -2,14 +2,14 @@ import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { CanDeactivateGuard } from './shared/can-deactivate-guard.service';
-import { AuthGuard }          from './shared/auth-guard.service';
+import { AuthGuardService }   from './login/shared/auth-guard.service';
 import { PreloadSelectedModules } from './selective-preload-strategy';
 
 const appRoutes: Routes = [
   {
     path: 'admin',
     loadChildren: 'app/admin/admin.module#AdminModule',
-    canLoad: [AuthGuard]
+    canLoad: [AuthGuardService]
   },
   {
     path: '',

@@ -10,7 +10,7 @@ import {
 import { AuthService }      from './auth.service';
 
 @Injectable()
-export class AuthGuard implements CanActivate, CanActivateChild, CanLoad {
+export class AuthGuardService implements CanActivate, CanActivateChild, CanLoad {
   constructor(private authService: AuthService, private router: Router) {}
 
   canActivate(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): boolean {
