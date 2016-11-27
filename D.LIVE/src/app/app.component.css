@@ -28,6 +28,7 @@ nav ul a {
 }
 
 article {
+    min-height: 600px;
     margin-left: 170px;
     border-left: 1px solid gray;
     padding: 1em;

@@ -1,23 +1,15 @@
-import { Component, OnInit }    from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+
 import { ActivatedRoute }       from '@angular/router';
 import { Observable }           from 'rxjs/Observable';
-import { SelectivePreloadStrategyService } from '../shared/selective-preload-strategy.service';
+import { SelectivePreloadStrategyService } from '../../shared/selective-preload-strategy.service';
 
 import 'rxjs/add/operator/map';
 
 @Component({
-  template:  `
-    <p>Dashboard</p>
-
-    <p>Session ID: {{ sessionId | async }}</p>
-    <a id="anchor"></a>
-    <p>Token: {{ token | async }}</p>
-
-    Preloaded Modules
-    <ul>
-      <li *ngFor="let module of modules">{{ module }}</li>
-    </ul>
-  `
+  selector: 'app-admin-dashboard',
+  templateUrl: './admin-dashboard.component.html',
+  styleUrls: ['./admin-dashboard.component.css']
 })
 export class AdminDashboardComponent implements OnInit {
   sessionId: Observable<string>;
@@ -43,10 +35,3 @@ export class AdminDashboardComponent implements OnInit {
       .map(fragment => fragment || 'None');
   }
 }
-
-
-/*
-Copyright 2016 Google Inc. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
-*/
