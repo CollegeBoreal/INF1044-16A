@@ -6,8 +6,8 @@ import { AppComponent }         from './app.component';
 import { AppRoutingModule }     from './app-routing.module';
 
 import { HeroesModule }         from './heroes/heroes.module';
-import { LoginRoutingModule }   from './login-routing.module';
-import { LoginComponent }       from './login.component';
+import { LoginRoutingModule }   from './login/login-routing.module';
+import { LoginComponent }       from './login/login.component';
 
 import { DialogService }        from './shared/dialog.service';
 
