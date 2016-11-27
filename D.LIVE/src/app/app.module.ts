@@ -9,7 +9,7 @@ import { HeroesModule }         from './heroes/heroes.module';
 import { LoginRoutingModule }   from './login-routing.module';
 import { LoginComponent }       from './login.component';
 
-import { DialogService }        from './dialog.service';
+import { DialogService }        from './shared/dialog.service';
 
 @NgModule({
   imports: [
