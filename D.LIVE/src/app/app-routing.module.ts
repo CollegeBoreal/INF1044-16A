@@ -1,24 +1,27 @@
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { CanDeactivateGuardService } from './login/shared/can-deactivate-guard.service';
-import { AuthGuardService }   from './login/shared/auth-guard.service';
+import { AuthGuardService }                from './login/shared/auth-guard.service';
+import { CanDeactivateGuardService }       from './login/shared/can-deactivate-guard.service';
 import { SelectivePreloadStrategyService } from './shared/selective-preload-strategy.service';
 
+const adminModulePath  = 'app/admin/admin.module#AdminModule';
+const crisisModulePath = 'app/crisis-center/crisis-center.module#CrisisCenterModule';
+
 const appRoutes: Routes = [
-  {
-    path: 'admin',
-    loadChildren: 'app/admin/admin.module#AdminModule',
-    canLoad: [AuthGuardService]
-  },
   {
     path: '',
     redirectTo: '/heroes',
     pathMatch: 'full'
   },
   {
+    path: 'admin',
+    loadChildren: adminModulePath,
+    canLoad: [AuthGuardService]
+  },
+  {
     path: 'crisis-center',
-    loadChildren: 'app/crisis-center/crisis-center.module#CrisisCenterModule',
+    loadChildren: crisisModulePath,
     data: {
       preload: true
     }
