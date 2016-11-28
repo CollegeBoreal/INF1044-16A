@@ -5,9 +5,9 @@ import { CommonModule }   from '@angular/common';
 import { CrisisService }        from './shared/crisis.service';
 
 import { CrisisCenterComponent }     from './crisis-center.component';
-import { CrisisListComponent }       from './crisis-list.component';
 import { CrisisCenterHomeComponent } from './crisis-center-home.component';
-import { CrisisDetailComponent }     from './crisis-detail.component';
+import { CrisisListComponent }       from './crisis-list/crisis-list.component';
+import { CrisisDetailComponent }     from './crisis-detail/crisis-detail.component';
 
 import { CrisisCenterRoutingModule } from './crisis-center-routing.module';
 
@@ -21,6 +21,7 @@ import { CrisisCenterRoutingModule } from './crisis-center-routing.module';
     CrisisCenterComponent,
     CrisisListComponent,
     CrisisCenterHomeComponent,
+    CrisisListComponent,
     CrisisDetailComponent
   ],
   providers: [
