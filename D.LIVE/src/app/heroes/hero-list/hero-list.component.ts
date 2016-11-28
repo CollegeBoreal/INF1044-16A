@@ -4,19 +4,12 @@ import { Observable } from 'rxjs/Observable';
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, Params } from '@angular/router';
 
-import { Hero, HeroService }  from './shared/hero.service';
+import { Hero, HeroService }  from '../shared/hero.service';
 
 @Component({
-  template: `
-    <h2>HEROES</h2>
-    <ul class="items">
-      <li *ngFor="let hero of heroes | async"
-        [class.selected]="isSelected(hero)"
-        (click)="onSelect(hero)">
-        <span class="badge">{{ hero.id }}</span> {{ hero.name }}
-      </li>
-    </ul>
-  `
+  selector: 'app-hero-list',
+  templateUrl: './hero-list.component.html',
+  styleUrls: ['./hero-list.component.css']
 })
 export class HeroListComponent implements OnInit {
   heroes: Observable<Hero[]>;
@@ -43,7 +36,6 @@ export class HeroListComponent implements OnInit {
     this.router.navigate(['/hero', hero.id]);
   }
 }
-
 
 /*
 Copyright 2016 Google Inc. All Rights Reserved.

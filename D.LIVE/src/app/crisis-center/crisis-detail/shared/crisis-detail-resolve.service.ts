@@ -2,7 +2,7 @@ import { Injectable }             from '@angular/core';
 import { Router, Resolve,
          ActivatedRouteSnapshot } from '@angular/router';
 
-import { Crisis, CrisisService } from './crisis.service';
+import { Crisis, CrisisService } from '../../shared/crisis.service';
 
 @Injectable()
 export class CrisisDetailResolveService implements Resolve<Crisis> {

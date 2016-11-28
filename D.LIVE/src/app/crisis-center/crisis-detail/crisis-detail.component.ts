@@ -35,17 +35,10 @@ import { DialogService }  from '../../shared/dialog.service';
   ]
 })
 export class CrisisDetailComponent implements OnInit {
-  @HostBinding('@routeAnimation') get routeAnimation() {
-    return true;
-  }
 
-  @HostBinding('style.display') get display() {
-    return 'block';
-  }
-
-  @HostBinding('style.position') get position() {
-    return 'absolute';
-  }
+  @HostBinding('@routeAnimation') get routeAnimation() { return true;       }
+  @HostBinding('style.display')   get display()        { return 'block';    }
+  @HostBinding('style.position')  get position()       { return 'absolute'; }
 
   crisis: Crisis;
   editName: string;

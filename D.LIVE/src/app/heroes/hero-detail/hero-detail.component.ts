@@ -4,24 +4,12 @@ import { Component, OnInit, HostBinding,
          style, state } from '@angular/core';
 import { Router, ActivatedRoute, Params } from '@angular/router';
 
-import { Hero, HeroService }  from './shared/hero.service';
+import { Hero, HeroService }  from '../shared/hero.service';
 
 @Component({
-  template: `
-  <h2>HEROES</h2>
-  <div *ngIf="hero">
-    <h3>"{{ hero.name }}"</h3>
-    <div>
-      <label>Id: </label>{{ hero.id }}</div>
-    <div>
-      <label>Name: </label>
-      <input [(ngModel)]="hero.name" placeholder="name"/>
-    </div>
-    <p>
-      <button (click)="gotoHeroes()">Back</button>
-    </p>
-  </div>
-  `,
+  selector: 'app-hero-detail',
+  templateUrl: './hero-detail.component.html',
+  styleUrls: ['./hero-detail.component.css'],
   animations: [
     trigger('routeAnimation', [
       state('*',
