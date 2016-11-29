@@ -15,8 +15,22 @@ $ npm install -g nativescript@latest
 ```
 ou
 ```
-$ npm install -g nativescript@2.3.0
+$ npm install -g nativescript@2.4.0
 ```
+
+## Devoir
+
+Maitriser le routage et les modules.
+
+Creer deux modules et lier le routage enfonction de ces modules.
+
+3 boutons de navigation sur chaque page.
+
+Un bouton pour app, un bouton pour module1 et un bouton pour module2.
+
+A rendre pour le 29 novembre.
+
+
 
 ## Projet
 
