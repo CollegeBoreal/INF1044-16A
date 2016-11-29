@@ -22,13 +22,9 @@ $ npm install -g nativescript@2.4.0
 
 Maitriser le routage et les modules.
 
-Creer deux modules et lier le routage enfonction de ces modules.
+Creer deux modules et lier le routage en fonction de ces modules.
 
-3 boutons de navigation sur chaque page.
-
-Un bouton pour app, un bouton pour module1 et un bouton pour module2.
-
-A rendre pour le 29 novembre.
+A rendre pour le 6 Décembre.
 
 
 
