@@ -5,19 +5,21 @@ import { NativeScriptRouterModule } from "nativescript-angular/router";
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing'; //TODO: Create app.routing
 
-import { HomeComponent } from './pages/home/home.component';
-import { ListComponent } from './pages/list/list.component';
+// import { HomeComponent } from './pages/home/home.component';
+import { LoginComponent } from './pages/login/login.component';
+
+import { HomeModule } from './pages/home/home.module';
 
 @NgModule({
     imports: [
         NativeScriptModule,
         NativeScriptRouterModule,
-        AppRoutingModule
+        AppRoutingModule,
+        HomeModule
     ],
     declarations: [
         AppComponent,
-        HomeComponent,
-        ListComponent
+        LoginComponent
         ],
     providers: [/* TODO: Providers go here */],
     bootstrap: [AppComponent],
