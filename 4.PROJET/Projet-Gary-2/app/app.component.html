@@ -1,27 +1,21 @@
-<ActionBar title="The Greater 6ix">
-  <android>
-    <!--<NavigationButton icon="res://ic_menu" tap="showSlideout" />-->
-  </android>
-  <!--<ios>
-    <ActionItem icon="res://ic_menu" ios.position="left" tap="showSideDrawer" />
-  </ios>-->
-</ActionBar>
+<StackLayout class="nav">
+  <ActionBar title="The Greater 6ix">
+    <!--<android>
+      <NavigationButton text="Go Back" android.systemIcon="ic_menu_back" tap="onNavBtnTap"/>
+      <NavigationButton android.icon="res://ic_back" tap="showSlideout"/>
+    </android>
 
-<StackLayout text="Greater 6ix" class="title" >
- 
-    <Button class="btnVille" text="Ajax"        [nsRouterLink]="[/#]"></Button>
-    <Button class="btnVille" text="Brampton"    [nsRouterLink]="[/#]"></Button>
-    <Button class="btnVille" text="Burlington"  [nsRouterLink]="[/#]"></Button>
-    <Button class="btnVille" text="Georgetown"  [nsRouterLink]="[/#]"></Button>
-    <Button class="btnVille" text="Markham"     [nsRouterLink]="[/#]"></Button>
-    <Button class="btnVille" text="Milton"      [nsRouterLink]="[/#]"></Button>
-    <Button class="btnVille" text="Mississauga" [nsRouterLink]="[/#]"></Button>
-    <Button class="btnVille" text="New Market"  [nsRouterLink]="[/#]"></Button>
-    <Button class="btnVille" text="Oakville"    [nsRouterLink]="[/#]"></Button>
-    <Button class="btnVille" text="Scarborough" [nsRouterLink]="[/#]"></Button>
-    <Button class="btnVille" text="Toronto"     [nsRouterLink]="[/#]"></Button>
-    <Button class="btnVille" text="Vaughan"     [nsRouterLink]="[/#]"></Button>
+    <ios>
+      <ActionItem icon="res://ic_menu" ios.position="left" tap="showSideDrawer" />
+    </ios>-->
 
-    <!--<Label [text]="message" class="message" textWrap="true"></Label>-->
-    <!--<Label [text]="message" class="message" textWrap="true"></Label>-->
+  </ActionBar>
 </StackLayout>
+
+
+<stacklayout>
+  <label text="Bienvenue! Clique continuer et choisi une ville" class="bienvenue"></label>
+  <Button class="btnChVille" text="Continuer" [nsRouterLink]="['./villes']"></Button>
+</stacklayout>
+
+<!--<router-outlet>S.V.P patientez</router-outlet>-->

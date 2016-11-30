@@ -1,10 +1,11 @@
 import { NgModule } from "@angular/core";
-import { NativeScriptModule } from "nativescript-angular/platform";
+import { platformNativeScriptDynamic, NativeScriptModule } from "nativescript-angular/platform";
 import { NativeScriptHttpModule } from "nativescript-angular/http";
 import { NativeScriptRouterModule } from "nativescript-angular/router";
-import {VillesComponent} from "./villes/villes.component";
+import { Router, NavigationStart, NavigationEnd } from '@angular/router';
 import { authProviders, appRoutes } from "./app.routing";
 import { AppComponent } from "./app.component";
+import {VillesComponent} from "./villes/villes.component";
 
 @NgModule({
     providers: [
@@ -21,5 +22,5 @@ import { AppComponent } from "./app.component";
         VillesComponent
     ],
     bootstrap: [AppComponent]
-})export class AppModule { }
-
+})
+export class AppModule { }
