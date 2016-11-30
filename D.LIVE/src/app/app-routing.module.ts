@@ -10,18 +10,18 @@ const crisisModulePath = 'app/crisis-center/crisis-center.module#CrisisCenterMod
 
 const appRoutes: Routes = [
   {
+    path: 'admin',
+    loadChildren: 'app/admin/admin.module#AdminModule',
+    canLoad: [AuthGuardService]
+  },
+  {
     path: '',
     redirectTo: '/heroes',
     pathMatch: 'full'
   },
   {
-    path: 'admin',
-    loadChildren: adminModulePath,
-    canLoad: [AuthGuardService]
-  },
-  {
     path: 'crisis-center',
-    loadChildren: crisisModulePath,
+    loadChildren: 'app/crisis-center/crisis-center.module#CrisisCenterModule',
     data: {
       preload: true
     }

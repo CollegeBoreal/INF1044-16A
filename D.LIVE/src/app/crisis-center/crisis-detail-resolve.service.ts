@@ -2,10 +2,10 @@ import { Injectable }             from '@angular/core';
 import { Router, Resolve,
          ActivatedRouteSnapshot } from '@angular/router';
 
-import { Crisis, CrisisService } from '../../shared/crisis.service';
+import { Crisis, CrisisService } from './crisis.service';
 
 @Injectable()
-export class CrisisDetailResolveService implements Resolve<Crisis> {
+export class CrisisDetailResolve implements Resolve<Crisis> {
   constructor(private cs: CrisisService, private router: Router) {}
 
   resolve(route: ActivatedRouteSnapshot): Promise<Crisis>|boolean {

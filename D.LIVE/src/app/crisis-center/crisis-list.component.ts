@@ -1,15 +1,23 @@
+import 'rxjs/add/operator/switchMap';
 import { Component, OnInit }      from '@angular/core';
 import { ActivatedRoute, Router, Params } from '@angular/router';
 
 import { Observable }            from 'rxjs/Observable';
-import 'rxjs/add/operator/switchMap';
 
-import { Crisis, CrisisService } from '../shared/crisis.service';
+import { Crisis, CrisisService } from './crisis.service';
 
 @Component({
-  selector: 'app-crisis-list',
-  templateUrl: './crisis-list.component.html',
-  styleUrls: ['./crisis-list.component.css']
+  template: `
+    <ul class="items">
+      <li *ngFor="let crisis of crises | async"
+        [class.selected]="isSelected(crisis)"
+        (click)="onSelect(crisis)">
+        <span class="badge">{{ crisis.id }}</span> {{ crisis.name }}
+      </li>
+    </ul>
+
+    <router-outlet></router-outlet>
+  `
 })
 export class CrisisListComponent implements OnInit {
   crises: Observable<Crisis[]>;

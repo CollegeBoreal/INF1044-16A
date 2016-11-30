@@ -25,7 +25,16 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: "main",
-            template: "\n    <StackLayout>\n    <label text=\"test\"></label> \n    <label text=\"cat!\"></label>\n    <Button text=\"switch\" [nsRouterLink]=\"['/Home-page']\"></Button>\n    <Button text=\"switch2\" [nsRouterLink]=\"['/List-page']\"></Button>\n    <router-outlet></router-outlet>\n    </StackLayout>\n    ",
+            // template: `
+            // <StackLayout>
+            // <label text="test"></label> 
+            // <label text="cat!"></label>
+            // <Button text="switch" [nsRouterLink]="['/Home-page']"></Button>
+            // <Button text="switch2" [nsRouterLink]="['/List-page']"></Button>
+            // <router-outlet></router-outlet>
+            // </StackLayout>
+            // `,
+            templateUrl: "app.component.html",
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
