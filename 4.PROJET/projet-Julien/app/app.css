@@ -1,9 +1,5 @@
-﻿button, label, stack-layout {
+﻿label, stack-layout {
     horizontal-align: center;    
-}
-
-button {
-    font-size: 36;
 }
 
 .title {
