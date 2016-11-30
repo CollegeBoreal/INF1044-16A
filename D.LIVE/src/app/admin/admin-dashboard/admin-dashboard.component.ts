@@ -19,10 +19,13 @@ export class AdminDashboardComponent implements OnInit {
   token: Observable<string>;
   modules: string[];
 
+  errorMessage: string;
+  hits: Hit[];
+
   constructor(
     private route: ActivatedRoute,
     private preloadStrategy: SelectivePreloadStrategyService,
-    private hit: HitService
+    private hitService: HitService
   ) {
     this.modules = preloadStrategy.preloadedModules;
   }
@@ -40,9 +43,9 @@ export class AdminDashboardComponent implements OnInit {
   }
 
   getHits() {
-    console.log("Hitting: "+  + " times")
-    let hitsPromise = Promise.resolve(this.hit.getHits());
-    hitsPromise.then(hits => hits.find(hit => hit.concat.name === 'hints'));
-    
+    this.hitService.getHits()
+                      .subscribe(
+                        hits => this.hits = hits,
+                        error =>  this.errorMessage = <any>error);
   }
 }
