@@ -1,13 +1,14 @@
-import { NgModule }                   from '@angular/core';
-import { RouterModule, Routes }       from '@angular/router';
+import { NgModule }             from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 
-import { CrisisHomeComponent }        from './crisis-home/crisis-home.component';
-import { CrisisListComponent }        from './crisis-list/crisis-list.component';
-import { CrisisCenterComponent }      from './crisis-center.component';
-import { CrisisDetailComponent }      from './crisis-detail/crisis-detail.component';
+import { CrisisCenterHomeComponent } from './crisis-center-home.component';
+import { CrisisListComponent }       from './crisis-list.component';
+import { CrisisCenterComponent }     from './crisis-center.component';
+import { CrisisDetailComponent }     from './crisis-detail.component';
 
-import { CanDeactivateGuardService }  from '../login/shared/can-deactivate-guard.service';
-import { CrisisDetailResolveService } from './crisis-detail/shared/crisis-detail-resolve.service';
+import { CanDeactivateGuardService }    from '../login/shared/can-deactivate-guard.service';
+
+import { CrisisDetailResolve }   from './crisis-detail-resolve.service';
 
 const crisisCenterRoutes: Routes = [
   {
@@ -23,12 +24,12 @@ const crisisCenterRoutes: Routes = [
             component: CrisisDetailComponent,
             canDeactivate: [CanDeactivateGuardService],
             resolve: {
-              crisis: CrisisDetailResolveService
+              crisis: CrisisDetailResolve
             }
           },
           {
             path: '',
-            component: CrisisHomeComponent            
+            component: CrisisCenterHomeComponent
           }
         ]
       }
@@ -44,7 +45,7 @@ const crisisCenterRoutes: Routes = [
     RouterModule
   ],
   providers: [
-    CrisisDetailResolveService
+    CrisisDetailResolve
   ]
 })
 export class CrisisCenterRoutingModule { }
