@@ -16,6 +16,10 @@ components that have the btn class name.
     horizontal-align: center; 
     color: rebeccapurple;   
 }*/
+stacklayout{
+    /*background-color: lightgray;*/
+}
+
 label{ 
     font: 40;
     color: cadetblue;
@@ -25,6 +29,7 @@ button {
     font-size: 20;
     border-style: ridge;
     background-color: blueviolet;
+    color: white;
 }
 
 stacklayout {
@@ -46,6 +51,10 @@ stacklayout {
     margin: 0 20;
 } 
 
+ActionBar {
+    background-color:  blueviolet;
+    color: white;
+}
 /*
 In many cases you may want to use the NativeScript core theme instead
 of writing your own CSS rules. For a full list of class names in the theme
