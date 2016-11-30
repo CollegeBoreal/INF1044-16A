@@ -1,5 +1,6 @@
 import { NgModule }       from '@angular/core';
 import { CommonModule }   from '@angular/common';
+import { HttpModule, JsonpModule } from '@angular/http';
 
 import { AdminComponent }          from './admin.component';
 import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
@@ -8,9 +9,13 @@ import { ManageHeroesComponent }   from './manage-heroes/manage-heroes.component
 
 import { AdminRoutingModule }      from './admin-routing.module';
 
+import { HitService } from '../shared/hit.service';
+
 @NgModule({
   imports: [
     CommonModule,
+    HttpModule,
+    JsonpModule,
     AdminRoutingModule
   ],
   declarations: [
@@ -18,7 +23,11 @@ import { AdminRoutingModule }      from './admin-routing.module';
     AdminDashboardComponent,
     ManageCrisesComponent,
     ManageHeroesComponent
+  ],
+  providers: [
+    HitService
   ]
+
 })
 export class AdminModule {}
 
