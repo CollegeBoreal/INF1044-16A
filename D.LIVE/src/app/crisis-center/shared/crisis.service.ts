@@ -1,6 +1,5 @@
-export class Crisis {
-  constructor(public id: number, public name: string) { }
-}
+import { Crisis } from './crisis'
+
 
 const CRISES = [
   new Crisis(1, 'Dragon Burning Cities'),

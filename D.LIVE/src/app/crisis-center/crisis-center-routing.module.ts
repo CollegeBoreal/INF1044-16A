@@ -8,7 +8,7 @@ import { CrisisDetailComponent }     from './crisis-detail.component';
 
 import { CanDeactivateGuardService }    from '../login/shared/can-deactivate-guard.service';
 
-import { CrisisDetailResolve }   from './crisis-detail-resolve.service';
+import { CrisisDetailResolveService }   from './shared/crisis-detail-resolve.service';
 
 const crisisCenterRoutes: Routes = [
   {
@@ -24,7 +24,7 @@ const crisisCenterRoutes: Routes = [
             component: CrisisDetailComponent,
             canDeactivate: [CanDeactivateGuardService],
             resolve: {
-              crisis: CrisisDetailResolve
+              crisis: CrisisDetailResolveService
             }
           },
           {
@@ -45,7 +45,7 @@ const crisisCenterRoutes: Routes = [
     RouterModule
   ],
   providers: [
-    CrisisDetailResolve
+    CrisisDetailResolveService
   ]
 })
 export class CrisisCenterRoutingModule { }

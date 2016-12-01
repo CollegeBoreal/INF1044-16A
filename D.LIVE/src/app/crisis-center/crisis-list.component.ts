@@ -4,7 +4,8 @@ import { ActivatedRoute, Router, Params } from '@angular/router';
 
 import { Observable }            from 'rxjs/Observable';
 
-import { Crisis, CrisisService } from './crisis.service';
+import { CrisisService } from './shared/crisis.service';
+import { Crisis } from './shared/crisis';
 
 @Component({
   template: `
