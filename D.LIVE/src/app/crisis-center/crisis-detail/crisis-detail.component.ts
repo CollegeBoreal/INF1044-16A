@@ -3,26 +3,13 @@ import { Component, OnInit, HostBinding,
          animate, style, state }  from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 
-import { Crisis }         from './shared/crisis';
-import { DialogService }  from '../shared/dialog.service';
+import { Crisis }         from '../shared/crisis';
+import { DialogService }  from '../../shared/dialog.service';
 
 @Component({
-  template: `
-  <div *ngIf="crisis">
-    <h3>"{{ editName }}"</h3>
-    <div>
-      <label>Id: </label>{{ crisis.id }}</div>
-    <div>
-      <label>Name: </label>
-      <input [(ngModel)]="editName" placeholder="name"/>
-    </div>
-    <p>
-      <button (click)="save()">Save</button>
-      <button (click)="cancel()">Cancel</button>
-    </p>
-  </div>
-  `,
-  styles: ['input {width: 20em}'],
+  selector: 'app-crisis-detail',
+  templateUrl: './crisis-detail.component.html',
+  styleUrls: ['./crisis-detail.component.css'],
   animations: [
     trigger('routeAnimation', [
       state('*',
