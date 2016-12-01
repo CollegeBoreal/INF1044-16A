@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  template:  `
-    <h2>CRISIS CENTER</h2>
-    <router-outlet></router-outlet>
-  `
+  selector: 'app-crisis-center',
+  templateUrl: './crisis-center.component.html',
+  styleUrls: ['./crisis-center.component.css']
 })
 export class CrisisCenterComponent { }
 
