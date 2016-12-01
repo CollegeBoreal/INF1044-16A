@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute }       from '@angular/router';
 import { Observable }           from 'rxjs/Observable';
 import { SelectivePreloadStrategyService } from '../../shared/selective-preload-strategy.service';
+import {  HitService } from '../../shared/hit.service';
 
 import 'rxjs/add/operator/map';
 
@@ -18,7 +19,8 @@ export class AdminDashboardComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private preloadStrategy: SelectivePreloadStrategyService
+    private preloadStrategy: SelectivePreloadStrategyService,
+    private hit: HitService
   ) {
     this.modules = preloadStrategy.preloadedModules;
   }
@@ -33,5 +35,9 @@ export class AdminDashboardComponent implements OnInit {
     this.token = this.route
       .fragment
       .map(fragment => fragment || 'None');
+  }
+  getHits()
+  {
+    console.log("Hitting: " + this.hit.getHits() + " times"); 
   }
 }

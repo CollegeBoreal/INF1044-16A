@@ -5,7 +5,6 @@ exports.authProviders = [
     auth_guard_service_1.AuthGuard
 ];
 exports.appRoutes = [
-    // { path: "", redirectTo: "/image", pathMatch: "full" },
     { path: "villes", component: villes_component_1.VillesComponent }
 ];
 //# sourceMappingURL=app.routing.js.map

@@ -5,7 +5,5 @@ export const authProviders = [
 ];
 
 export const appRoutes = [
-    // { path: "", redirectTo: "/image", pathMatch: "full" },
-
     { path: "villes", component:VillesComponent}
 ];
