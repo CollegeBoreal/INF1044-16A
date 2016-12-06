@@ -4,11 +4,13 @@ import { Component } from "@angular/core";
     selector: "my-app",
     template:` 
 <StackLayout class="nav">
-  <ActionBar title="The Greater 6ix">
-    <Button text="M" [nsRouterLink]="['/villes/ville.component']" class="btnChVille"></Button>
-  </ActionBar>
-  
-  <app-villes></app-villes>
-</StackLayout>`
+  <ActionBar title="The Greater 6ix"></ActionBar>
+  <Button text="M" [nsRouterLink]="['/villes']" class="btnChVille"></Button>
+</StackLayout>
+
+<StackLayout>
+  <router-outlet></router-outlet>
+</StackLayout>
+`
 })
 export class AppComponent {}

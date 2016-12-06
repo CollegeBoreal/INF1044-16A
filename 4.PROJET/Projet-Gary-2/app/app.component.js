@@ -6,7 +6,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: "my-app",
-            template: " \n<StackLayout class=\"nav\">\n  <ActionBar title=\"The Greater 6ix\">\n    <Button text=\"M\" [nsRouterLink]=\"['/villes/ville.component']\" class=\"btnChVille\"></Button>\n  </ActionBar>\n  \n  <app-villes></app-villes>\n</StackLayout>"
+            template: " \n<StackLayout class=\"nav\">\n  <ActionBar title=\"The Greater 6ix\"></ActionBar>\n  <Button text=\"M\" [nsRouterLink]=\"['/villes']\" class=\"btnChVille\"></Button>\n</StackLayout>\n\n<StackLayout>\n  <router-outlet></router-outlet>\n</StackLayout>\n"
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

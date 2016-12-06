@@ -1,37 +1,32 @@
-"use strict";
-var core_1 = require("@angular/core");
-var platform_1 = require("nativescript-angular/platform");
-var http_1 = require("nativescript-angular/http");
-var router_1 = require("nativescript-angular/router");
-// import { authProviders } from "../app.component";
-var villes_routing_1 = require("./villes.routing");
-var app_component_1 = require("../app.component");
-var villes_component_1 = require("./villes.component");
-var ajax_component_1 = require("./Ajax/ajax.component");
-var brampton_component_1 = require("./Brampton/brampton.component");
-var AppModule = (function () {
-    function AppModule() {
-    }
-    AppModule = __decorate([
-        core_1.NgModule({
-            providers: [],
-            imports: [
-                platform_1.NativeScriptModule,
-                http_1.NativeScriptHttpModule,
-                router_1.NativeScriptRouterModule,
-                router_1.NativeScriptRouterModule.forRoot(villes_routing_1.villesRoute)
-            ],
-            declarations: [
-                villes_component_1.VillesComponent,
-                app_component_1.AppComponent,
-                ajax_component_1.AjaxComponent,
-                brampton_component_1.BramptonComponent
-            ],
-            bootstrap: [app_component_1.AppComponent]
-        }), 
-        __metadata('design:paramtypes', [])
-    ], AppModule);
-    return AppModule;
-}());
-exports.AppModule = AppModule;
+// import { NgModule } from "@angular/core";
+// import { platformNativeScriptDynamic, NativeScriptModule } from "nativescript-angular/platform";
+// import { NativeScriptHttpModule } from "nativescript-angular/http";
+// import { NativeScriptRouterModule } from "nativescript-angular/router";
+// import { Router, NavigationStart, NavigationEnd } from '@angular/router';
+// // import { authProviders } from "../app.component";
+// // import { villesRoute } from "./villes.routing";
+// import { AppComponent } from "../app.component";
+// import {VillesComponent} from "./villes.component";
+// import { AjaxComponent } from "./Ajax/ajax.component";
+// import {BramptonComponent} from "./Brampton/brampton.component";
+// @NgModule({
+//     providers: [
+//         // authProviders
+//     ],
+//     imports: [
+//         NativeScriptModule,
+//         NativeScriptHttpModule,
+//         NativeScriptRouterModule,
+//         NativeScriptRouterModule.forRoot(villesRoute)
+//     ],
+//     declarations: [
+//         VillesComponent,
+//         AppComponent,
+//         AjaxComponent,
+//         BramptonComponent
+//     ],
+//     bootstrap: [AppComponent]
+// })
+// export class VilleModule { }
+// platformNativeScriptDynamic().bootstrapModule(VilleModule);
 //# sourceMappingURL=ville.module.js.map

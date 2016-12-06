@@ -5,7 +5,7 @@ var BramptonComponent = (function () {
     }
     BramptonComponent = __decorate([
         core_1.Component({
-            moduleId: module.id,
+            // moduleId: module.id,
             selector: 'app-brampton',
             templateUrl: 'brampton.component.html'
         }), 

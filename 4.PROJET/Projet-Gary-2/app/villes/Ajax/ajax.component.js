@@ -5,7 +5,7 @@ var AjaxComponent = (function () {
     }
     AjaxComponent = __decorate([
         core_1.Component({
-            moduleId: module.id,
+            //     moduleId: module.id,
             selector: 'app-ajax',
             templateUrl: 'ajax.component.html'
         }), 
