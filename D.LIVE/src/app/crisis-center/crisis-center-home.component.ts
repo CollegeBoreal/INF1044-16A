@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  template:  `
-    <h2>CRISIS CENTER</h2>
-    <router-outlet></router-outlet>
+  template: `
+    <p>Welcome to the Crisis Center</p>
   `
 })
-export class CrisisCenterComponent { }
+export class CrisisCenterHomeComponent { }
 
 
 /*

@@ -2,20 +2,15 @@ import { Component } from "@angular/core";
 
 @Component({
     selector: "my-app",
-    templateUrl: "app.component.html",
-})
-export class AppComponent {
-    public counter: number = 16;
+    template:` 
+<StackLayout class="nav">
+  <ActionBar title="The Greater 6ix"></ActionBar>
+  <Button text="M" [nsRouterLink]="['/villes']" class="btnChVille"></Button>
+</StackLayout>
 
-    public get message(): string {
-        if (this.counter > 0) {
-            return "Vous etes a Mississauga";
-        } else {
-            return "Choisis une ville";
-        }
-    }
-    
-    public onTap() {
-        this.counter--;
-    }
-}
+<StackLayout>
+  <router-outlet></router-outlet>
+</StackLayout>
+`
+})
+export class AppComponent {}

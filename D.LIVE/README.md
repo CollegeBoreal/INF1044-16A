@@ -41,6 +41,3 @@ http://plnkr.co/edit/?p=preview
 ```
 
 ```
-
-## Comments Service Sample
-https://scotch.io/tutorials/angular-2-http-requests-with-observables

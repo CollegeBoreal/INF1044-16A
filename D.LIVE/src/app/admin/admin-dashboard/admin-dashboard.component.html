@@ -9,8 +9,4 @@ Preloaded Modules
   <li *ngFor="let module of modules">{{ module }}</li>
 </ul>
 
-<ul>
-  <li *ngFor="let hit of hits">{{hit.num}}</li>
-</ul>
-
-<button (click)="getHits()">Tapez</button>
+<button (click)=getHits()> Hit </button>
