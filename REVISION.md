@@ -1,9 +1,9 @@
 # Revision
 
 
-## Layouts (NativeScript et Web)
+## HTML Layouts 
 
-
+(NativeScript et Web)
 
 ## CSS
 
