@@ -14,7 +14,7 @@ https://docs.nativescript.org/ui/layouts
 http://www.w3schools.com/cssref/css_websafe_fonts.asp  
 https://en.wikipedia.org/wiki/Category:Typeface_samples  
 
-Exemple NativeScript
+Exemple NativeScript  
 https://github.com/TheOriginalJosh/nativescript-weather  
 
 * Animatable keyframes (incluant NativeScript)
