@@ -21,3 +21,8 @@ https://github.com/TheOriginalJosh/nativescript-weather
 
 http://www.w3schools.com/cssref/css_animatable.asp   
 http://www.nativescriptsnacks.com/videos/2016/10/25/keyframe-animation.html  
+
+## Module, Router & Navigation
+
+https://angular.io/docs/ts/latest/guide/router.html  
+https://angular.io/docs/ts/latest/guide/ngmodule.html
