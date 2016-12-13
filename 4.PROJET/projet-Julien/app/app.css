@@ -1,5 +1,11 @@
-﻿label, stack-layout {
+﻿@import '~/css/core.light.css'; 
+
+button, label, stack-layout {
     horizontal-align: center;    
+}
+
+button {
+    font-size: 36;
 }
 
 .title {

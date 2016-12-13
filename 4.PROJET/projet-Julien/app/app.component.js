@@ -19,26 +19,14 @@ var AppComponent = (function () {
     AppComponent.prototype.onTap = function () {
         this.counter--;
     };
-    AppComponent.prototype.pageSwitch = function () {
-        this.counter++;
-    };
-    AppComponent = __decorate([
-        core_1.Component({
-            selector: "main",
-            // template: `
-            // <StackLayout>
-            // <label text="test"></label> 
-            // <label text="cat!"></label>
-            // <Button text="switch" [nsRouterLink]="['/Home-page']"></Button>
-            // <Button text="switch2" [nsRouterLink]="['/List-page']"></Button>
-            // <router-outlet></router-outlet>
-            // </StackLayout>
-            // `,
-            templateUrl: "app.component.html",
-        }), 
-        __metadata('design:paramtypes', [])
-    ], AppComponent);
     return AppComponent;
 }());
+AppComponent = __decorate([
+    core_1.Component({
+        selector: "my-app",
+        templateUrl: "app.component.html",
+    }),
+    __metadata("design:paramtypes", [])
+], AppComponent);
 exports.AppComponent = AppComponent;
 //# sourceMappingURL=app.component.js.map
