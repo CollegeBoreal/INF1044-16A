@@ -26,3 +26,10 @@ http://www.nativescriptsnacks.com/videos/2016/10/25/keyframe-animation.html
 
 https://angular.io/docs/ts/latest/guide/router.html  
 https://angular.io/docs/ts/latest/guide/ngmodule.html
+
+
+## Mobile
+
+* Nativescript
+
+* IoT (JSON)? 
