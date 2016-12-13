@@ -3,8 +3,6 @@ import { platformNativeScriptDynamic, NativeScriptModule } from "nativescript-an
 import { NgModule } from "@angular/core";
 import { AppComponent } from "./app.component";
 
-import { AppModule } from './app.module';
-
 @NgModule({
     declarations: [AppComponent],
     bootstrap: [AppComponent],
@@ -12,4 +10,4 @@ import { AppModule } from './app.module';
 })
 class AppComponentModule {}
 
-platformNativeScriptDynamic().bootstrapModule(AppModule);
+platformNativeScriptDynamic().bootstrapModule(AppComponentModule);
