@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+
+import { Component } from "@angular/core";
+import ImageModule = require("ui/image");
+
 
 @Component({
     selector: 'mon-app',

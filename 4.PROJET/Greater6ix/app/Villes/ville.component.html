@@ -1,5 +1,7 @@
 <StackLayout text="Greater 6ix" class="title" >
-    <label text="Choisissez une ville" class="entete"> </label>
-        <Button class="btnVille" text="Ajax"        [nsRouterLink]="['/Ajax']"></Button>
-        <Button class="btnVille" text="Brampton"    [nsRouterLink]="['/Brampton']"></Button>
+    <label class="Villetxt" text="Choisissez une ville de la liste ci-dessous" > </label>
+        <Button class="btnVille" text="Ajax"        [nsRouterLink]="['/ajax']"></Button>
+        <Button class="btnVille" text="Brampton"    [nsRouterLink]="['/brampton']"></Button>
+
+    <router-outlet></router-outlet>
 </StackLayout>

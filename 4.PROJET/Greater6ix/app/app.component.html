@@ -1,10 +1,10 @@
-<!--<StackLayout class="p-20">
-    <Label text="Tap the button" class="h1 text-center"></Label>
-    <Button text="TAP" (tap)="onTap()" class="btn btn-primary btn-active"></Button>
-    <Label [text]="message" class="h2 text-center" textWrap="true"></Label>
-</StackLayout>-->
-<StackLayout class="p-20">
-    <label class="bienvenue" text="Cliquez sur le bouton Ville pour choisir une ville"></label>
-    <button class="btnChVille" text="Choisir une ville" [nsRouterLink]="['/Villes']"></button>
+
+<page.actionbar>
+        <label class="bienvenue" text="Cliquez sur le bouton Villes"></label>
+        <button class="btnChVille" text="Villes" [nsRouterLink]="['/Villes']"></button>
+</page.actionbar>
+<StackLayout>
+    
+    <!--<Image src="https://media.timeout.com/images/102873865/630/472/image.jpg"/>-->
     <router-outlet></router-outlet>
 </StackLayout>
