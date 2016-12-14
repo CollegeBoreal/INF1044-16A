@@ -1,24 +1,26 @@
 import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
 import { NativeScriptModule } from "nativescript-angular/platform";
 import { NativeScriptRouterModule } from "nativescript-angular/router"
+import { appRoute } from "./app.route";
+// import {BrowserModule} from '@angular/platform-browser';
+// import {FormsModule} from '@angular/forms';
 
 import { AppComponent } from "./app.component";
-import { VilleComponent } from "./villes/ville.component";
-import { routes } from "./app.route";
+import { VilleComponent } from "./Villes/ville.component";
+
 @NgModule({
     declarations: [
         AppComponent,
         VilleComponent
         ],
-    bootstrap: [
-        AppComponent
-        ],
+    bootstrap: [AppComponent],
     imports: [
+        appRoute,
         NativeScriptModule,
-        NativeScriptRouterModule
+        NativeScriptRouterModule //,
+        // FormsModule,
+        // BrowserModule
         ],
-    schemas: [
-        NO_ERRORS_SCHEMA
-        ]
+    schemas: [NO_ERRORS_SCHEMA]
 })
 export class AppModule { }
