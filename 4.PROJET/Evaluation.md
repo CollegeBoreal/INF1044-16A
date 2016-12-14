@@ -1,5 +1,15 @@
 # Grille d'evaluation
 
+
+## Énoncé
+    -[*] Maitriser le routage et les modules.
+        * Creer deux modules et
+        * lier le routage en fonction de ces modules.
+
+    -[ ] Faire une connection HTTP a votre serveur de base de donnees
+
+A rendre pour le 6 Décembre.
+
 ## DDL
 
 1. Schema Conceptuel (Diagramme de donnees) E/R en format png
