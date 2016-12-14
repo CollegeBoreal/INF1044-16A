@@ -8,7 +8,7 @@ var BramptonComponent = (function () {
         core_1.Component({
             moduleId: module.id,
             selector: 'brampton-app',
-            template: "label text=\"Bienvenue a Brampton\"></label>"
+            template: "<label text=\"Bienvenue a Brampton\"></label>"
         }), 
         __metadata('design:paramtypes', [])
     ], BramptonComponent);

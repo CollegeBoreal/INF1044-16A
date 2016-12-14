@@ -1,18 +1,21 @@
-import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
-import { NativeScriptModule } from "nativescript-angular/platform";
+
+import { NativeScriptModule } from "nativescript-angular/nativescript.module";
+import { NgModule, NO_ERRORS_SCHEMA, NgModuleFactoryLoader } from "@angular/core";
 import { NativeScriptRouterModule } from "nativescript-angular/router"
+
+
 import { AppRoutingModule }     from './app-routing.module';
 
 // import {BrowserModule} from '@angular/platform-browser';
 // import {FormsModule} from '@angular/forms';
 
 import { AppComponent } from "./app.component";
-import { VilleComponent } from "./Villes/ville.component";
+
+import { NsModuleFactoryLoader } from "./ns-module-factory-loader";
 
 @NgModule({
     declarations: [
-        AppComponent,
-        VilleComponent
+        AppComponent
         ],
     bootstrap: [AppComponent],
     imports: [
@@ -22,6 +25,9 @@ import { VilleComponent } from "./Villes/ville.component";
         // FormsModule,
         // BrowserModule
         ],
-    schemas: [NO_ERRORS_SCHEMA]
+    schemas: [NO_ERRORS_SCHEMA],
+    providers: [
+        { provide: NgModuleFactoryLoader, useClass: NsModuleFactoryLoader }
+    ]
 })
 export class AppModule { }

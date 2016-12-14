@@ -2,7 +2,7 @@ import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { VilleComponent } from './Villes/ville.component';
+// import { VilleComponent } from './Villes/ville.component';
 
 // export const routes: Routes = [
 //     {path: '', component: AppComponent },
@@ -24,10 +24,7 @@ const appRoutes: Routes = [
     }
     ,{
         path: 'Villes',
-        // loadChildren: 'app/Villes/Ville.module#VilleModule'
-        loadChildren: () => require("app/Villes/Ville.module")["VilleModule"]
-        //  Error: Uncaught (in promise): Error: com.tns.NativeScriptException: 
-        // Failed to find module: "app/Villes/Ville.module", relative to: app/tns_modules/
+        loadChildren: './Villes/ville.module#VilleModule'
   }
 ];
 
