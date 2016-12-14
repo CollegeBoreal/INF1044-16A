@@ -36,10 +36,10 @@ A rendre pour le 6 Décembre.
 
 # IRCodes
 
-![IDCodes](IRCodes.md)
+![IDCodes Copie D'écrans](IRCodes.md)
 
 --
 
 # Greater6ix
 
-![Greater6ix](Greater6ix.md)
+![Greater6ix Copie D'écrans](Greater6ix.md)
