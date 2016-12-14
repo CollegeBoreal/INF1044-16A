@@ -19,12 +19,15 @@ const appRoutes: Routes = [
     {path: 'app', component:AppComponent},
     {
         path: '',
-        redirectTo: '/app',
+        redirectTo: 'app',
         pathMatch: 'full'
-    },
-    {
+    }
+    ,{
         path: 'Villes',
-        loadChildren: 'app/Villes/Ville.module#VilleModule'
+        // loadChildren: 'app/Villes/Ville.module#VilleModule'
+        loadChildren: () => require("app/Villes/Ville.module")["VilleModule"]
+        //  Error: Uncaught (in promise): Error: com.tns.NativeScriptException: 
+        // Failed to find module: "app/Villes/Ville.module", relative to: app/tns_modules/
   }
 ];
 
