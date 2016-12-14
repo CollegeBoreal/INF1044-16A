@@ -23,40 +23,39 @@ const homeRoutes: Routes =
 //   }
 // ];
 
-[
-  {
-    path: '',
-    redirectTo: '/home',
-    pathMatch: 'full'
-  },
-  {
-    path: 'home',
-    component: HomeComponent,
-    children: [
-      {
-        path: '',
-        component: HomeComponent,
-        children: [
-          {
-            path: ':id',
-            component: HomeComponent
-          },
-          {
-            path: '',
-            component: HomeComponent
-          }
-        ]
-      }
-    ]
-  }
-];
-
 // [
-//   { path: 'Home-page',  component: HomeComponent },
-//   { path: 'Home-page/:id', component: EditComponent },
-//   { path: 'Add-page', component: AddComponent }
-
+//   {
+//     path: '',
+//     redirectTo: '/home',
+//     pathMatch: 'full'
+//   },
+//   {
+//     path: 'home',
+//     component: HomeComponent,
+//     children: [
+//       {
+//         path: '',
+//         component: HomeComponent,
+//         children: [
+//           {
+//             path: ':id',
+//             component: HomeComponent
+//           },
+//           {
+//             path: '',
+//             component: HomeComponent
+//           }
+//         ]
+//       }
+//     ]
+//   }
 // ];
+
+[
+  { path: 'Home-page',  component: HomeComponent },
+  { path: 'Home-page/:id', component: EditComponent },
+  { path: 'Add-page', component: AddComponent }
+];
 
 @NgModule({
   imports: [
