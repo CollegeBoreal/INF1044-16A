@@ -1,7 +1,13 @@
-<StackLayout>
-    <Label text="Tap the button" class="title"></Label>
+<DockLayout stretchLastChild="true">
     
-    <Button text="TAP" (tap)="onTap()"></Button>
+    <StackLayout>
+        <router-outlet></router-outlet>
+        <StackLayout dock="bottom">
+            <GridLayout rows="auto,auto,auto" columns="auto,auto,auto">
+                <GridLayout col="0" row="0" ><Button dock="bottom" text="switch"  [nsRouterLink]="['/Home-page']" ></Button></GridLayout>
+                <GridLayout col="1" row="0" ><Button dock="bottom" text="switch2" [nsRouterLink]="['/Login-page']"></Button></GridLayout> 
+            </GridLayout>
+        </StackLayout>
+    </StackLayout>
 
-    <Label [text]="message" class="message" textWrap="true"></Label>
-</StackLayout>
+</DockLayout>
