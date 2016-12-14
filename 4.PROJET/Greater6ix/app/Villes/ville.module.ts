@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
-import { appRouting } from './villes.route';
+import { VillesRoutingModule } from './villes-routing.module';
 
 import { VilleComponent } from './ville.component';
 import { AjaxComponent } from './ajax/ajax.component';
 import { BramptonComponent } from './brampton/brampton.component';
 
 @NgModule({
-    imports: [appRouting],
+    imports: [VillesRoutingModule],
     exports: [],
     declarations: [
         VilleComponent,

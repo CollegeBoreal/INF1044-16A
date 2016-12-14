@@ -1,12 +1,12 @@
 "use strict";
-var core_1 = require("@angular/core");
+var core_1 = require('@angular/core');
 var AppComponent = (function () {
     function AppComponent() {
     }
     AppComponent = __decorate([
         core_1.Component({
-            selector: "mon-app",
-            templateUrl: "app.component.html",
+            selector: 'mon-app',
+            templateUrl: './app.component.html'
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

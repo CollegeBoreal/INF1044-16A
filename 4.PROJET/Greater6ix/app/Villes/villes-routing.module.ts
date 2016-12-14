@@ -11,19 +11,18 @@ import { BramptonComponent } from './brampton/brampton.component';
 //   { path: 'brampton', component: BramptonComponent }
 // ];
 
-const appRoutes=[
+const villesRoutes=[
 	{path: '', redirectTo: 'Ville', pathMatch: 'full'},
 	{path: 'Ville', component:VilleComponent},
 	{path: 'ajax', component:AjaxComponent},
   {path: 'brampton', component:BramptonComponent}
 	];
 
-// @NgModule({
-//   imports: [RouterModule.forChild|Root(routes)],
-//   exports: [RouterModule]
-// })
+@NgModule({
+  imports: [RouterModule.forChild(villesRoutes)],
+  exports: [RouterModule]
+})
 
-export const appRouting = RouterModule.forRoot(appRoutes);
-// export class NameRoutingModule { }
+export class VillesRoutingModule { }
 
 // export const routedComponents = [VilleComponent,AjaxComponent,BramptonComponent];
