@@ -22,5 +22,7 @@
 | 6ix | 2  | 3  | 4  |  2 |  3 | 3  |  4 |  Ou est la table endroits? i.e. 3FN   |  
 | IR  | 4  | 3  | 2  |  4 |  2 | 3  |  3 |                                       |  
 
+--
+
 ![alt tag](https://github.com/CollegeBoreal/INF1044-16A/blob/master/4.PROJET/IRCodes1.png)
 ![alt tag](https://github.com/CollegeBoreal/INF1044-16A/blob/master/4.PROJET/IRCodes2.png)
