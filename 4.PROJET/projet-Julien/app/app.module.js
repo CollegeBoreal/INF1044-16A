@@ -5,8 +5,8 @@ var router_1 = require("nativescript-angular/router");
 var app_component_1 = require('./app.component');
 var app_routing_1 = require('./app.routing'); //TODO: Create app.routing
 //import { HomeComponent } from './home/home.component';
-var login_component_1 = require('./login/login.component');
-var home_module_1 = require('./home/home.module');
+var login_component_1 = require('./pages/login/login.component');
+var home_module_1 = require('./pages/home/home.module');
 var AppModule = (function () {
     function AppModule() {
     }

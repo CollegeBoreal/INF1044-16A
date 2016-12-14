@@ -2,8 +2,8 @@
 var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
 var app_component_1 = require('./app.component');
-var home_component_1 = require('./home/home.component');
-var login_component_1 = require('./login/login.component');
+var home_component_1 = require('./pages/home/home.component');
+var login_component_1 = require('./pages/login/login.component');
 // const routes: Routes = [
 // //   {
 // //     path: '',
