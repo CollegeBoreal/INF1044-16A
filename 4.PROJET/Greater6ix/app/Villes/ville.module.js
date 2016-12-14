@@ -1,6 +1,6 @@
 "use strict";
 var core_1 = require('@angular/core');
-var villes_route_1 = require('./villes.route');
+var villes_routing_module_1 = require('./villes-routing.module');
 var ville_component_1 = require('./ville.component');
 var ajax_component_1 = require('./ajax/ajax.component');
 var brampton_component_1 = require('./brampton/brampton.component');
@@ -9,7 +9,7 @@ var VilleModule = (function () {
     }
     VilleModule = __decorate([
         core_1.NgModule({
-            imports: [villes_route_1.appRouting],
+            imports: [villes_routing_module_1.VillesRoutingModule],
             exports: [],
             declarations: [
                 ville_component_1.VilleComponent,

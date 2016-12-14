@@ -1,7 +1,8 @@
 import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
 import { NativeScriptModule } from "nativescript-angular/platform";
 import { NativeScriptRouterModule } from "nativescript-angular/router"
-import { appRoute } from "./app.route";
+import { AppRoutingModule }     from './app-routing.module';
+
 // import {BrowserModule} from '@angular/platform-browser';
 // import {FormsModule} from '@angular/forms';
 
@@ -15,9 +16,9 @@ import { VilleComponent } from "./Villes/ville.component";
         ],
     bootstrap: [AppComponent],
     imports: [
-        appRoute,
         NativeScriptModule,
-        NativeScriptRouterModule //,
+        NativeScriptRouterModule,
+        AppRoutingModule //,
         // FormsModule,
         // BrowserModule
         ],

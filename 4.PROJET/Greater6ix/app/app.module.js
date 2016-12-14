@@ -2,7 +2,7 @@
 var core_1 = require("@angular/core");
 var platform_1 = require("nativescript-angular/platform");
 var router_1 = require("nativescript-angular/router");
-var app_route_1 = require("./app.route");
+var app_routing_module_1 = require('./app-routing.module');
 // import {BrowserModule} from '@angular/platform-browser';
 // import {FormsModule} from '@angular/forms';
 var app_component_1 = require("./app.component");
@@ -18,9 +18,9 @@ var AppModule = (function () {
             ],
             bootstrap: [app_component_1.AppComponent],
             imports: [
-                app_route_1.appRoute,
                 platform_1.NativeScriptModule,
-                router_1.NativeScriptRouterModule //,
+                router_1.NativeScriptRouterModule,
+                app_routing_module_1.AppRoutingModule //,
             ],
             schemas: [core_1.NO_ERRORS_SCHEMA]
         }), 

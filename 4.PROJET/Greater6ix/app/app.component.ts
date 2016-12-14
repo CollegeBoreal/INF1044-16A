@@ -1,9 +1,11 @@
+
 import { Component } from "@angular/core";
 import ImageModule = require("ui/image");
 
+
 @Component({
-    selector: "mon-app",
-    templateUrl: "app.component.html",
+    selector: 'mon-app',
+    templateUrl: './app.component.html'
 })
 export class AppComponent {
 
