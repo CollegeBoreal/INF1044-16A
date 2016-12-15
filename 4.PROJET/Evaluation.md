@@ -29,17 +29,33 @@ A rendre pour le 6 Décembre.
 
 | ID  |COD1|COD2|COD3|COD4|REC1|REC2|REC3|  Comments    (7 * 5 = 35)             |
 |----:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|---------------------------------------|  
-| 6ix | 4  | 3  | 2  |  4 |  3 | 4  |  3 |                                       |  
-| IR  | 4  | 3  | 2  |  2 |  2 | 2  |  2 |                                       |  
+| 6ix | 4  | 3  | 2  |  4 |  3 | 4  |  3 |  (Voir ci-dessous)                    |  
+| IR  | 4  | 3  | 2  |  2 |  2 | 2  |  2 |  (Voir ci-dessous)                    |  
 
---
-
-# IRCodes
-
-![=> IDCodes Copie D'écrans](IRCodes.md)
 
 --
 
 # Greater6ix
 
+## Commentaires
+
+    Le code a compilé et j'ai du faire des ajustements au niveau des modules
+    bonne persistance a allé l'information
+
+    J'ai rectifié le code et j'ai mis la copie d'écran ci dessous
+    
 ![=> Greater6ix Copie D'écrans](Greater6ix.md)
+
+--
+
+# IRCodes
+
+## Commentaires
+    le code n'a pas compilé,
+    J'ai fait un ajustement au niveau des répertoires en déplaçant home dans pages
+    Ce léger ajustement m'a permis de faire tourner le code.
+    Une persistance dans le débuggage aurait facilement permis de trouver l'erreur
+    
+    J'ai rectifié le code et j'ai mis la copie d'écran ci dessous
+
+![=> IDCodes Copie D'écrans](IRCodes.md)
