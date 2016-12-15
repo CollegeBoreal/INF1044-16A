@@ -40,7 +40,7 @@ A rendre pour le 6 Décembre.
 ## Commentaires
 
     Le code a compilé et j'ai du faire des ajustements au niveau des modules
-    bonne persistance a allé l'information
+    bonne persistance à aller chercher l'information
 
     J'ai rectifié le code et j'ai mis la copie d'écran ci dessous
     
