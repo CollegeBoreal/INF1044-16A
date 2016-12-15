@@ -22,6 +22,7 @@ import { DialogService }        from './shared/dialog.service';
   ],
   declarations: [
     AppComponent,
+    LoginComponent,
     LoginComponent
   ],
   providers: [
