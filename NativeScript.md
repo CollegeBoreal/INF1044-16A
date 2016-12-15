@@ -1,3 +1,7 @@
+# Installation
+
+[Setup](C.SETUP)
+
 # Références
 
 * Liste organisée de ressources NativeScript  
