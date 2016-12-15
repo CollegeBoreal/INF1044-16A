@@ -11,7 +11,7 @@ import { AppRoutingModule }     from './app-routing.module';
 
 import { AppComponent } from "./app.component";
 
-import { NsModuleFactoryLoader } from "./ns-module-factory-loader";
+import { NsModuleFactoryLoader } from "./shared/ns-module-factory-loader";
 
 @NgModule({
     declarations: [

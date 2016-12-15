@@ -6,7 +6,7 @@ var app_routing_module_1 = require('./app-routing.module');
 // import {BrowserModule} from '@angular/platform-browser';
 // import {FormsModule} from '@angular/forms';
 var app_component_1 = require("./app.component");
-var ns_module_factory_loader_1 = require("./ns-module-factory-loader");
+var ns_module_factory_loader_1 = require("./shared/ns-module-factory-loader");
 var AppModule = (function () {
     function AppModule() {
     }
