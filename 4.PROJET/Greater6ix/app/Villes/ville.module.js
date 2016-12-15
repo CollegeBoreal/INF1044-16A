@@ -1,4 +1,6 @@
 "use strict";
+var nativescript_module_1 = require("nativescript-angular/nativescript.module");
+var router_1 = require("nativescript-angular/router");
 var core_1 = require('@angular/core');
 var villes_routing_module_1 = require('./villes-routing.module');
 var ville_component_1 = require('./ville.component');
@@ -9,7 +11,11 @@ var VilleModule = (function () {
     }
     VilleModule = __decorate([
         core_1.NgModule({
-            imports: [villes_routing_module_1.VillesRoutingModule],
+            imports: [
+                nativescript_module_1.NativeScriptModule,
+                router_1.NativeScriptRouterModule,
+                villes_routing_module_1.VillesRoutingModule
+            ],
             exports: [],
             declarations: [
                 ville_component_1.VilleComponent,

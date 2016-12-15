@@ -48,3 +48,6 @@ lib
 i
 # Apple
 .DS_Store
+
+# VS
+.vscode

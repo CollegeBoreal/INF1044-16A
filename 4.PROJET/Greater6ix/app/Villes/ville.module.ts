@@ -1,3 +1,6 @@
+import { NativeScriptModule } from "nativescript-angular/nativescript.module";
+import { NativeScriptRouterModule } from "nativescript-angular/router";
+
 import { NgModule } from '@angular/core';
 import { VillesRoutingModule } from './villes-routing.module';
 
@@ -6,7 +9,11 @@ import { AjaxComponent } from './ajax/ajax.component';
 import { BramptonComponent } from './brampton/brampton.component';
 
 @NgModule({
-    imports: [VillesRoutingModule],
+    imports: [
+        NativeScriptModule,
+        NativeScriptRouterModule,
+        VillesRoutingModule
+    ],
     exports: [],
     declarations: [
         VilleComponent,
