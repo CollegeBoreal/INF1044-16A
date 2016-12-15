@@ -24,8 +24,3 @@ https://www.w3.org/TR/#tr_CSS
    
 ## Native Applications
 
-* Exemples  
-https://github.com/NativeScript/nativescript-sdk-examples-ng  
-
-* Comparaison avec ionic  
-http://www.hybridtonative.com/
