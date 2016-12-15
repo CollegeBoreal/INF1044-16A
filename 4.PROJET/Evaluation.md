@@ -12,7 +12,7 @@ A rendre pour le 6 Décembre.
 
 ## COD (Codage)
 
-1. Deux modules présent dans le code
+1. Deux modules présent dans le code (Principal et un supplémentaire accepté)
 2. Routage entre les modules
 3. Code complété et prêt à tourner
 4. Originalité
@@ -29,17 +29,17 @@ A rendre pour le 6 Décembre.
 
 | ID  |COD1|COD2|COD3|COD4|REC1|REC2|REC3|  Comments    (7 * 5 = 35)             |
 |----:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|---------------------------------------|  
-| 6ix | 2  | 3  | 4  |  2 |  3 | 3  |  4 |  Ou est la table endroits? i.e. 3FN   |  
-| IR  | 4  | 3  | 2  |  4 |  2 | 3  |  3 |                                       |  
+| 6ix | 4  | 3  | 3  |  3 |  3 | 4  |  3 |                                       |  
+| IR  | 4  | 3  | 2  |  2 |  2 | 2  |  2 |                                       |  
 
 --
 
 # IRCodes
 
-![IDCodes Copie D'écrans](IRCodes.md)
+![=> IDCodes Copie D'écrans](IRCodes.md)
 
 --
 
 # Greater6ix
 
-![Greater6ix Copie D'écrans](Greater6ix.md)
+![=> Greater6ix Copie D'écrans](Greater6ix.md)
