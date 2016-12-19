@@ -1,11 +1,14 @@
 "use strict";
-var auth_guard_service_1 = require("./auth-guard.service");
+var router_1 = require("@angular/router");
 var villes_component_1 = require("./villes/villes.component");
-exports.authProviders = [
-    auth_guard_service_1.AuthGuard
-];
+var ajax_component_1 = require("./villes/Ajax/ajax.component");
+var brampton_component_1 = require("./villes/Brampton/brampton.component");
+var app_component_1 = require("./app.component");
 exports.appRoutes = [
-    // { path: "", redirectTo: "/image", pathMatch: "full" },
-    { path: "villes", component: villes_component_1.VillesComponent }
+    { path: "", component: app_component_1.AppComponent },
+    { path: "villes", component: villes_component_1.VillesComponent },
+    { path: "Ajax", component: ajax_component_1.AjaxComponent },
+    { path: "Brampton", component: brampton_component_1.BramptonComponent }
 ];
+exports.appRouting = router_1.RouterModule.forRoot(exports.appRoutes);
 //# sourceMappingURL=app.routing.js.map

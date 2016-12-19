@@ -3,9 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute }       from '@angular/router';
 import { Observable }           from 'rxjs/Observable';
 import { SelectivePreloadStrategyService } from '../../shared/selective-preload-strategy.service';
-import { HitService } from '../../shared/hit.service';
-import { Hit } from '../../common/interfaces/hit.interface';
-
+import {  HitService } from '../../shared/hit.service';
 
 import 'rxjs/add/operator/map';
 
@@ -19,13 +17,10 @@ export class AdminDashboardComponent implements OnInit {
   token: Observable<string>;
   modules: string[];
 
-  errorMessage: string;
-  hits: Hit[];
-
   constructor(
     private route: ActivatedRoute,
     private preloadStrategy: SelectivePreloadStrategyService,
-    private hitService: HitService
+    private hit: HitService
   ) {
     this.modules = preloadStrategy.preloadedModules;
   }
@@ -41,11 +36,8 @@ export class AdminDashboardComponent implements OnInit {
       .fragment
       .map(fragment => fragment || 'None');
   }
-
-  getHits() {
-    this.hitService.getHits()
-                      .subscribe(
-                        hits => this.hits = hits,
-                        error =>  this.errorMessage = <any>error);
+  getHits()
+  {
+    console.log("Hitting: " + this.hit.getHits() + " times"); 
   }
 }

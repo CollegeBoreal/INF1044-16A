@@ -2,33 +2,36 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-// import { HomeComponent } from './pages/home/home.component';
+ import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 
-const routes: Routes = [
-  {
-    path: '',
-    redirectTo: '/home',
-    pathMatch: 'full'
-  },
-  {
-      path: '/home',
-      loadChildren: 'app/home/home/home.module#HomeModule'
-  }
+// const routes: Routes = [
+// //   {
+// //     path: '',
+// //     redirectTo: '/home',
+// //     pathMatch: 'full'
+// //   }
+//      //{ path: '', redirectTo: "main", pathMatch:"full"}
+//     //  { path: 'main', component: AppComponent },
 //   {
-//     path: 'login', component: LoginComponent
-//   }
-];
+//   path: '',
+//   redirectTo: '/home',
+//   pathMatch: 'full'
+// },
+// // //   {
+// // //     path: 'login', component: LoginComponent
+// // //   }
+// ];
 
 @NgModule({
     imports: [
         RouterModule.forRoot([
-            // { path: '', redirectTo: "main", component: AppComponent },
-            // { path: '', redirectTo: "Home-page", pathMatch:"full"},
-            // { path: 'main', component: AppComponent },
-            // { path: 'Home-page', component: HomeComponent },
-            // { path: 'Login-page', component: LoginComponent },
-            routes
+            { path: '', redirectTo: "Home-page", pathMatch:"full"},
+            { path: 'main', component: AppComponent },
+            { path: 'Home-page', component: HomeComponent },
+            { path: 'Login-page', component: LoginComponent },
+            
+            //routes
         ])
     ],
     exports: [

@@ -17,11 +17,16 @@ $ tns install
 
 ### Faire tourner l'application mobile
 ```
+$ tns run <platform>
+```
+
+### developper de facon incrementale (apres avoir installer l'application avec tns run)
+```
 $ tns livesync --emulator --watch
 ```
 
 ### Nettoyer en cas de probleme 
 
 ```
-$ rm -rf hooks lib node_modules platforms
+$ rm -rf node_modules hooks lib platforms
 ```

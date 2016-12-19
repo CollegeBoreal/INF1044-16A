@@ -1,7 +1,8 @@
-import {Component} from "@angular/core";
+import { Component } from "@angular/core";
+import { RouterModule, Routes } from "@angular/router"
 
 @Component({
-    selector: "my-app",
+    selector: "app-villes",
     templateUrl: "./villes/villes.component.html"
 })
 export class VillesComponent {}

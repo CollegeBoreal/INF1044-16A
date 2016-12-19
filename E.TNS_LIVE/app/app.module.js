@@ -1,19 +1,16 @@
 "use strict";
-var platform_1 = require("nativescript-angular/platform");
 var core_1 = require("@angular/core");
+var platform_1 = require("nativescript-angular/platform");
 var app_component_1 = require("./app.component");
 var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
-            imports: [
-                platform_1.NativeScriptModule
-            ],
-            declarations: [
-                app_component_1.AppComponent
-            ],
-            bootstrap: [app_component_1.AppComponent]
+            declarations: [app_component_1.AppComponent],
+            bootstrap: [app_component_1.AppComponent],
+            imports: [platform_1.NativeScriptModule],
+            schemas: [core_1.NO_ERRORS_SCHEMA]
         }), 
         __metadata('design:paramtypes', [])
     ], AppModule);

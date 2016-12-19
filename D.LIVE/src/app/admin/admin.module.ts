@@ -8,15 +8,15 @@ import { ManageCrisesComponent }   from './manage-crises/manage-crises.component
 import { ManageHeroesComponent }   from './manage-heroes/manage-heroes.component';
 
 import { AdminRoutingModule }      from './admin-routing.module';
-
-import { HitService } from '../shared/hit.service';
+import { Http } from '@angular/http';
+import { HitService } from '../shared/hit.service'; 
 
 @NgModule({
   imports: [
     CommonModule,
+    AdminRoutingModule,
     HttpModule,
-    JsonpModule,
-    AdminRoutingModule
+    JsonpModule
   ],
   declarations: [
     AdminComponent,
@@ -24,10 +24,9 @@ import { HitService } from '../shared/hit.service';
     ManageCrisesComponent,
     ManageHeroesComponent
   ],
-  providers: [
+  providers:[
     HitService
   ]
-
 })
 export class AdminModule {}
 

@@ -1,11 +1,15 @@
-import { AuthGuard } from "./auth-guard.service";
+import { ModuleWithProviders }  from "@angular/core";
+import { Routes, RouterModule } from "@angular/router";
+
 import {VillesComponent} from "./villes/villes.component";
-export const authProviders = [
-    AuthGuard
-];
+import { AjaxComponent } from "./villes/Ajax/ajax.component";
+import { BramptonComponent } from "./villes/Brampton/brampton.component";
+import { AppComponent } from "./app.component";
 
 export const appRoutes = [
-    // { path: "", redirectTo: "/image", pathMatch: "full" },
-
-    { path: "villes", component:VillesComponent}
+    { path: "", component:AppComponent},
+    { path: "villes", component:VillesComponent},
+    { path: "Ajax", component: AjaxComponent},
+    { path: "Brampton", component: BramptonComponent}
 ];
+export const appRouting = RouterModule.forRoot(appRoutes);
