@@ -1,21 +1,61 @@
-import {Component} from "@angular/core";
+import {
+      Component
+    , OnInit
+} from "@angular/core";
+
+import {
+    Http
+} from "@angular/http";
+
+import dialogs = require("ui/dialogs");
+import "rxjs/Rx";
 
 @Component({
     selector: "my-app",
     templateUrl: "app.component.html",
 })
-export class AppComponent {
-    public counter: number = 16;
+export class AppComponent implements OnInit {
+    public pokemon: Array<any>;
 
-    public get message(): string {
-        if (this.counter > 0) {
-            return this.counter + " taps left";
-        } else {
-            return "Hoorraaay! \nYou are ready to start building!";
-        }
+    constructor(private http: Http) { 
+        this.pokemon = [];
     }
-    
-    public onTap() {
-        this.counter--;
+
+    public ngOnInit() {
+
+        this.http.get("https://pokeapi.co/api/v2/pokemon?limit=151")
+        .map( result => result.json())
+        .flatMap(result => result.results)
+        .subscribe(
+            result => {
+                this.pokemon.push(result);
+            },
+            error => {
+                console.error(error);
+            }
+        );
+     
+    }
+
+    public showInformation(index: number) { 
+
+        this.http.get("https://pokeapi.co/api/v2/pokemon/" + index)
+        .map( result => result.json())
+        .flatMap(result => result.types)
+        .map( result => 
+            (<any> result).type.name
+        )
+        .toArray()
+        .subscribe(
+            result => {
+                this.showDialog(result)
+            });
+
+    }
+
+    public showDialog(data: Array<any>) { 
+
+        dialogs.alert({title: "Information", message: "Pokemon of type(s) " + data.join(","),okButtonText: "OK"});
+
     }
 }

@@ -19,3 +19,23 @@ button {
     text-align: center;
     margin: 0 20;
 } 
+
+.pokemon-number {
+    font-weight: bold;
+}
+
+.pokemon-name {
+    text-transform: capitalize;
+}
+
+.pokemon-image {
+    animation-name: pokemon-image;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+@keyframes pokemon-image {
+    from { opacity: 0; transform: rotate(0deg); }
+    to { opacity: 1; transform: rotate(360deg); }
+}
