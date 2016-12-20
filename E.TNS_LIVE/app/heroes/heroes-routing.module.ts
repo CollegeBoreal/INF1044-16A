@@ -1,5 +1,7 @@
+import { NativeScriptModule } from "nativescript-angular/platform";
+import { NativeScriptRouterModule} from "nativescript-angular/router"
 import { NgModule }             from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { Routes } from '@angular/router';
 
 
 import { HeroListComponent }    from './hero-list/hero-list.component';
@@ -12,13 +14,13 @@ const heroesRoutes: Routes = [
 
 @NgModule({
   imports: [
-      RouterModule.forChild(heroesRoutes)
+      NativeScriptRouterModule.forChild(heroesRoutes)
   ],
   exports: [
-    RouterModule
+    NativeScriptRouterModule
   ]
 })
-export class HeroRoutingModule { }
+export class HeroesRoutingModule { }
 
 
 /*

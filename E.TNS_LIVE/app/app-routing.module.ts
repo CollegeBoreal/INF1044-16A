@@ -1,5 +1,7 @@
+import { NativeScriptModule } from "nativescript-angular/platform";
+import { NativeScriptRouterModule} from "nativescript-angular/router"
 import { NgModule }             from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 
@@ -12,16 +14,16 @@ const appRoutes: Routes = [
     ,{
         path: 'heroes',
         loadChildren: './heroes/heroes.module#HeroesModule'
-  }
+    }
 ];
 
 @NgModule({
   imports: [
-      RouterModule,
-      RouterModule.forRoot(appRoutes)
+      NativeScriptRouterModule,
+      NativeScriptRouterModule.forRoot(appRoutes)
   ],
   exports: [
-    RouterModule
+    NativeScriptRouterModule
   ]
 })
 export class AppRoutingModule {}

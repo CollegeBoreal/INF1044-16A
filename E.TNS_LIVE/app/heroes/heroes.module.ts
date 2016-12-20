@@ -8,13 +8,13 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 
 import { HeroService } from './shared/hero.service';
 
-import { HeroRoutingModule } from './heroes-routing.module';
+import { HeroesRoutingModule } from './heroes-routing.module';
 
 @NgModule({
   imports: [
     NativeScriptModule,
     NativeScriptRouterModule,
-    HeroRoutingModule
+    HeroesRoutingModule
   ],
   declarations: [
     HeroListComponent,
