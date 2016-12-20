@@ -1,5 +1,6 @@
-<StackLayout class="p-20">
-    <Label text="Peser le piton" class="h1 text-center"></Label>
-    <Button text="TAP" (tap)="onTap()" class="btn btn-primary btn-active"></Button>
-    <Label [text]="message" class="h2 text-center" textWrap="true"></Label>
+<StackLayout>
+    <StackLayout>
+    <button class="btn btn-primary btn-active" text="Heroes" [nsRouterLink]="['/heroes']"></button>
+    </StackLayout>
+    <page-router-outlet></page-router-outlet>
 </StackLayout>

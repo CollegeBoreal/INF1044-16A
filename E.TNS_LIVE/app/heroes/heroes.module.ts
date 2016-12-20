@@ -1,4 +1,5 @@
 import { NativeScriptModule } from "nativescript-angular/platform";
+import { NativeScriptRouterModule } from "nativescript-angular/router"
 
 import { NgModule }       from '@angular/core';
 
@@ -12,6 +13,7 @@ import { HeroRoutingModule } from './heroes-routing.module';
 @NgModule({
   imports: [
     NativeScriptModule,
+    NativeScriptRouterModule,
     HeroRoutingModule
   ],
   declarations: [

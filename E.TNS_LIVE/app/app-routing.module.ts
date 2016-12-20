@@ -1,25 +1,27 @@
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { NativeScriptRouterModule } from "nativescript-angular/router";
+import { AppComponent } from './app.component';
 
 const appRoutes: Routes = [
-  {
-    path: '',
-    redirectTo: '/heroes',
-    pathMatch: 'full'
+    {
+        path: '',
+        redirectTo: '/heroes',
+        pathMatch: 'full'
+    }
+    ,{
+        path: 'heroes',
+        loadChildren: './heroes/heroes.module#HeroesModule'
   }
 ];
 
 @NgModule({
   imports: [
-      NativeScriptRouterModule,
-      NativeScriptRouterModule.forRoot(
-          appRoutes
-          )
+      RouterModule,
+      RouterModule.forRoot(appRoutes)
   ],
   exports: [
-    NativeScriptRouterModule
+    RouterModule
   ]
 })
 export class AppRoutingModule {}

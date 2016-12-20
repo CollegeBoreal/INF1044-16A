@@ -1,5 +1,3 @@
-import { NativeScriptRouterModule } from "nativescript-angular/router";
-
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
@@ -14,11 +12,10 @@ const heroesRoutes: Routes = [
 
 @NgModule({
   imports: [
-      NativeScriptRouterModule,
-      NativeScriptRouterModule.forChild(heroesRoutes)
+      RouterModule.forChild(heroesRoutes)
   ],
   exports: [
-    NativeScriptRouterModule
+    RouterModule
   ]
 })
 export class HeroRoutingModule { }
