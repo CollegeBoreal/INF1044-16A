@@ -8,11 +8,11 @@ let mainMenuLinks = [
 
 @Component({
     moduleId: module.id,
-    templateUrl: "examples-list.component.html",
+    templateUrl: "menu-list.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush
 })
 
-export class ExamplesListComponent {
+export class MenusListComponent {
     public links: Array<Link>;
 
     constructor() {

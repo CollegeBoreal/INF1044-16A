@@ -1,7 +1,10 @@
 {
     "private": false,
     "nativescript": {
-        "id": "org.nativescript.helloworldng"
+        "id": "org.nativescript.helloworldng",
+        "tns-ios": {
+            "version": "2.4.0"
+        }
     },
     "name": "tns-template-hello-world-ng",
     "main": "main.js",

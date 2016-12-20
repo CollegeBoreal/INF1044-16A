@@ -1,12 +1,12 @@
 import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
 import { NativeScriptRouterModule } from "nativescript-angular/router";
 import { NativeScriptModule } from "nativescript-angular/platform";
-import { ExamplesListComponent } from "./examples-list.component";
+import { MenusListComponent } from "./menu-list.component";
 import { TitleAndNavButtonModule } from "../directives/title-and-nav-button.module";
 
 export const routerConfig = [{
     path: "",
-    component: ExamplesListComponent
+    component: MenusListComponent
 }];
 
 @NgModule({
@@ -17,9 +17,9 @@ export const routerConfig = [{
         NativeScriptRouterModule,
         NativeScriptRouterModule.forChild(routerConfig)
     ],
-    declarations: [ExamplesListComponent]
+    declarations: [MenusListComponent]
 })
 
-export class ExamplesListModule {
+export class MenuListModule {
     constructor() { }
 }

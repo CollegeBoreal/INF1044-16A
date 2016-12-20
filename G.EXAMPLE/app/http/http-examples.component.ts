@@ -1,5 +1,5 @@
 import { Component, ChangeDetectionStrategy } from "@angular/core";
-import { Link } from "./../examples-list/link";
+import { Link } from "./../menu-list/link";
 
 let menuLinks = [
     new Link("HTTP POST", "/http/http-post"),
@@ -8,7 +8,7 @@ let menuLinks = [
 
 @Component({
     moduleId: module.id,
-    templateUrl: "./../examples-list/examples-list.component.html",
+    templateUrl: "./../menu-list/menu-list.component.html",
     changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HttpExamplesComponent {
