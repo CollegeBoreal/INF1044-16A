@@ -1,5 +1,8 @@
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+
 // tslint:disable:max-line-length
-export const routes = [
+export const routes: Routes = [
     {
         path: "",
         loadChildren: "./menu-list/menu-list.module#MenuListModule",
@@ -16,3 +19,10 @@ export const routes = [
         data: { title: "HTTP Module" }
     }
 ];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+
+export class AppRoutingModule { }

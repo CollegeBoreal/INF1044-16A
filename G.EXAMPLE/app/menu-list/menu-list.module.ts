@@ -1,13 +1,12 @@
 import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
 import { NativeScriptRouterModule } from "nativescript-angular/router";
 import { NativeScriptModule } from "nativescript-angular/platform";
-import { MenusListComponent } from "./menu-list.component";
+
 import { TitleAndNavButtonModule } from "../directives/title-and-nav-button.module";
 
-export const routerConfig = [{
-    path: "",
-    component: MenusListComponent
-}];
+import { MenuListRoutingModule } from "./menu-list.routing.module";
+
+import { MenusListComponent } from "./menu-list.component";
 
 @NgModule({
     schemas: [NO_ERRORS_SCHEMA],
@@ -15,11 +14,9 @@ export const routerConfig = [{
         TitleAndNavButtonModule,
         NativeScriptModule,
         NativeScriptRouterModule,
-        NativeScriptRouterModule.forChild(routerConfig)
+        MenuListRoutingModule
     ],
     declarations: [MenusListComponent]
 })
 
-export class MenuListModule {
-    constructor() { }
-}
+export class MenuListModule { }

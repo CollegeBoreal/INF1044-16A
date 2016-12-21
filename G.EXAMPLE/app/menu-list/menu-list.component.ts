@@ -1,7 +1,7 @@
-import { Component, ChangeDetectionStrategy } from "@angular/core";
+import { Component, OnInit, ChangeDetectionStrategy } from "@angular/core";
 import { Link } from "./link";
 
-let mainMenuLinks = [
+let mainMenuLinks: Array<Link> = [
     new Link("HTTP Module", "/http"),
     new Link("Application Settings", "/application-settings")
 ];
@@ -12,20 +12,27 @@ let mainMenuLinks = [
     changeDetection: ChangeDetectionStrategy.OnPush
 })
 
-export class MenusListComponent {
+export class MenusListComponent implements OnInit {
     public links: Array<Link>;
 
     constructor() {
         this.links = [];
+    }
 
-        mainMenuLinks.sort(function (a, b) {
+    public ngOnInit() {
+
+        let sortedLinks: Array<Link> = [];
+
+        sortedLinks = mainMenuLinks.slice(0);
+
+        sortedLinks.sort( (a,b): number => {
             let titleA = a.title.toUpperCase();
             let titleB = b.title.toUpperCase();
             return (titleA < titleB) ? -1 : (titleA > titleB) ? 1 : 0;
         });
 
-        for (let i = 0; i < mainMenuLinks.length; i++) {
-            this.links.push(mainMenuLinks[i]);
-        }
+        // deep copy
+        sortedLinks.forEach( result => this.links.push(result));
+
     }
 }

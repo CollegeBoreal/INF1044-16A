@@ -6,10 +6,10 @@ import { NgModule, NO_ERRORS_SCHEMA, NgModuleFactoryLoader } from "@angular/core
 import { NativeScriptRouterModule } from "nativescript-angular/router";
 import { NativeScriptFormsModule } from "nativescript-angular/forms";
 
-import { routes } from "./app.routes";
+import { AppRoutingModule } from "./app.routing.module";
 import { AppComponent } from "./app.component";
 // << (hide)
-import { NsModuleFactoryLoader } from "./ns-module-factory-loader";
+import { NsModuleFactoryLoader } from "./shared/ns-module-factory-loader";
 
 @NgModule({
     schemas: [NO_ERRORS_SCHEMA],
@@ -21,7 +21,7 @@ import { NsModuleFactoryLoader } from "./ns-module-factory-loader";
         NativeScriptModule,
         NativeScriptFormsModule,
         NativeScriptRouterModule,
-        NativeScriptRouterModule.forRoot(routes),
+        AppRoutingModule,
     ],
     providers: [
         { provide: NgModuleFactoryLoader, useClass: NsModuleFactoryLoader }
